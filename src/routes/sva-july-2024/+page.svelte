@@ -43,6 +43,7 @@
     import Four from '$lib/images/snow-to-rain/four.webp';
     import One from '$lib/images/snow-to-rain/one.webp';
     import Three from '$lib/images/snow-to-rain/three.png';
+    import Hoefler from '$lib/images/snow-to-rain/hoefler.png';
 
   import { onMount } from 'svelte';
 
@@ -71,7 +72,13 @@
             imageURL: Img12,
             caption: `Cover of BlipSoak01 by Tan Lin (2003)`,
             text:
-                `This is precisely the kind of reading that the author and poet Tan Lin is interested in. Lin’s concept of ‘ambient literature’ describes text that functions like wallpaper, meant to be read through multiple glances over time. His work often explores the temporary ephemera that fills our daily interactions: emails, billboards, movie subtitles, advertisements, recipes etc. This is a quote in reference to his book BlipSoak01, where he says, “A lot of people think great works of literature should be memorized. I think poems and novels are most beautiful at the exact moment in which they are forgotten.” Another quote from the preface of BlipSoak01: “Of course, it goes without saying that poetry should not be difficult. It should be very very easy and deeply relaxing at the synaptic level, which is the level of looking. The most beautiful poem is a poem that is looked at one word and then one letter at a time”. That relation between looking at words vs reading them makes me think of the sort of texts used when proofing typefaces. Type designers use these to inspect the shape of words. It’s not about the meaning of the words, but meaning is produced nonetheless.`
+                `This is precisely the kind of reading that the author and poet Tan Lin is interested in. Lin’s concept of ‘ambient literature’ describes text that functions like wallpaper, meant to be read through multiple glances over time. His work often explores the temporary ephemera that fills our daily interactions: emails, billboards, movie subtitles, advertisements, recipes etc. This is a quote in reference to his book BlipSoak01, where he says, “A lot of people think great works of literature should be memorized. I think poems and novels are most beautiful at the exact moment in which they are forgotten.” Another quote from the preface of BlipSoak01: “Of course, it goes without saying that poetry should not be difficult. It should be very very easy and deeply relaxing at the synaptic level, which is the level of looking. The most beautiful poem is a poem that is looked at one word and then one letter at a time”.`
+        },
+        {
+            imageURL: Hoefler,
+            caption: `Jonathan Hoefler's lowercase proof, from his article "How to Proof a Typeface"`,
+            text:
+                `That relation between looking at words vs reading them makes me think of the sort of texts used when proofing typefaces. Type designers use these to inspect the shape of words. It’s not about the meaning of the words, but meaning is produced nonetheless.`
         },
         {
             imageURL: Img18,
@@ -106,7 +113,7 @@
         {
             imageURL: Img21,
             caption: `Fragrantica review of Age of Innocence by Toskovat’. Notes include bubble gum, cotton candy, strawberry, gasoline, rubber, metallic notes, rose, agarwood, vetiver, cedar, and cade oil. `,
-            text: `I love reading music reviews and fragrance reviews. These are two genres of writing that are full of inarticulable feelings, overstuffed with adjectives and descriptive language. The authors of such reviews wield metaphor with wildness and un-restraint. At first it seems like the experience of sound and scent are mediums that wouldn’t be able to translate to writing. Afterall, you can’t actually hear the music or smell the fragrance from the reviews, but somehow it still works. My theory is that this is because language functions as the glue between senses. Sensory experiences often trigger deep affect and we often want to infect other people with what we feel, and so we transmit feeling by turning our senses into language. The above review claims that fragrance in question ‘smells like seeing.’ Perhaps that doesn’t tell you anything about the scent, but we try, always, anyways, with words. Even just by pointing at the gap that exists between the words and the feelings/senses that are trying to conveyed, is enough. Music and fragrances generates so much interesting writing because there is so much distance to cover.`
+            text: `I love reading music reviews and fragrance reviews. These are two genres of writing that are full of inarticulable feelings, overstuffed with adjectives and descriptive language. The authors of such reviews wield metaphor with wildness and un-restraint. At first it seems like the experience of sound and scent are mediums that wouldn’t be able to translate to writing. Afterall, you can’t actually hear the music or smell the fragrance from the reviews, but somehow it still works. My theory is that this is because language functions as the glue between senses. Sensory experiences often trigger deep affect and we often want to infect other people with what we feel, and so we transmit feeling by turning our senses into language. The above review claims that the fragrance in question ‘smells like seeing.’ Perhaps that doesn’t tell you anything about the scent, but we try, always, anyways, with words. Even just by pointing at the gap that exists between the words and the feelings/senses they are trying to convey, is enough. Music and fragrances generate so much interesting writing because there is so much distance to cover.`
         },
         {
             imageURL: Img36,
@@ -126,12 +133,12 @@
         {
             imageURL: Img32,
             caption: `Youtube comments under Watering a Flower by Haruomi Hosono (1984)`,
-            text: `Ong argues that the introduction of writing changes the form of human consciousness form sensing the immediacy of the spoken word to the critical distance and systemization of words, which, through writing, can then be graphically displayed and ordered.`
+            text: `Ong argues that the introduction of writing changes the form of human consciousness from sensing the immediacy of the spoken word to the critical distance and systemization of words, which, through writing, can then be graphically displayed and ordered.`
         },
         {
             imageURL: Img9,
             caption: `Youtube comments under Watering a Flower by Haruomi Hosono (1984)`,
-            text: `When trying to convey our more immersive senses (sound and scent) through writing, we chart a path through imagery that dissects that immersive cloud into graspable parts. I hope that doesn’t sound disparaging in any way. Rather, it is that concretization that becomes the playground where descriptive writing operates, where subjectivity can interpret objective sensory data. `
+            text: `When trying to convey our more immersive senses (sound and scent) through writing, we chart a path through imagery that dissects that immersive cloud into graspable parts.`
         },
         {
             imageURL: Img33,
@@ -176,7 +183,7 @@
         {
             imageURL: Img4,
             caption: `The 22 major arcana of the Rider-Waite tarot deck.`,
-            text: `Tarot is like a periodic table of elements for the symbolic world, for psychic space. One common ‘critique’ of tarot goes something like this: “how can a limited set of 72 cards possibly describe the entirety of the intricacies and variations of not only the my own life, but also of the entirety of human experience?” But we can also see tarot as a model of the psyche as 72-dimensional space. Each card is a vector, which, through combination, metaphor, and association with each other, can describe any situation that you may find yourself in. The same thing applies to astrology. At first glance, astrology can feel like an extremely reductive way to categorize all of our individual, unique personalities into 12 buckets. But through this linear algebra metaphor, it describes this 12-dimensional personality space. Both tarot and astrology are incredibly rich in mythology, and symbolism. The Jungian idea of the collective unconsciousness seems like the key to pushing beyond the asymptotic nature of language, and pushing beyond how cloistered and siloed and inaccessible our interiority can feel sometimes (the stereotypically teenage sentiment of  ‘no one understand me’ thankfully turns out not to be true). Communication and mutual understanding feels like it works a lot better if we all have this shared pre-linguistic bank of archetypes, if we all have the same anchors from which hard-to-articulate feelings arise. `
+            text: `Tarot is like a periodic table of elements for the symbolic world, for psychic space. One common ‘critique’ of tarot goes something like this: “How can a limited set of 72 cards possibly describe the entirety of the intricacies and variations of not only my own life, but also of the entirety of human experience?” But we can also see tarot as a model of the psyche as 72-dimensional space. Each card is a vector, which, through combination, metaphor, and association with each other, can describe any situation that you may find yourself in. The same thing applies to astrology. At first glance, astrology can feel like an extremely reductive way to categorize all of our individual, unique personalities into 12 buckets. But through this linear algebra metaphor, it describes a 12-dimensional personality space. Both tarot and astrology are incredibly rich in mythology, and symbolism. The Jungian idea of the collective unconsciousness seems like the key to pushing beyond the asymptotic nature of language, and pushing beyond how cloistered and siloed and inaccessible our interiority can feel sometimes (the stereotypically teenage sentiment of  "no one understand me" thankfully turns out not to be true). Communication and mutual understanding feels like it works a lot better if we all have this shared pre-linguistic bank of archetypes, if we all have the same anchors from which hard-to-articulate feelings arise. `
         },
         {
             imageURL: Img28,
@@ -216,7 +223,7 @@
         {
             imageURL: Five,
             caption: `Quintessence`,
-            text: `And my favorite number, ’5,’ transcends. It’s ineffable. It’s literally quintessence. A pentagram is arcane and magical. Shakesphere loved iambic pentameter, and pentatonic scales, in music, have a special harmonic quality and is present in the folk musics of many different cultures. There are 5 senses, and we have 5 fingers on each hand and 5 fingers on each foot.`
+            text: `And my favorite number, ’5,’ transcends. It’s ineffable. It’s literally quintessence. A pentagram is arcane and magical. Shakesphere loved iambic pentameter, and pentatonic scales, in music, have a special harmonic quality and is present in the folk musics of many different cultures. There are five senses, and we have five fingers on each hand and five toes on each foot.`
         },
         {
             imageURL: Img30,
@@ -226,7 +233,7 @@
         {
             imageURL: Img26,
             caption: `A diagram showing how Word2vec, a natural language processing technique, transforms words into mathematical vectors that can then be spatially mapped in a meaningful way. `,
-            text: `So, what about words? We do things with words, but words also do things to us. Are words invented or discovered? Is there even a meaningful distinction between the two verbs? In looking at these representations of the latent space between words (in a machine learning / language model context), I get the feeling that words are just objects that have always existed in some sort of idea-space, irregardless of our experience of them. Reading and writing are just two different ways of interfacing with words. Maybe the practice of writing is less like invention, and more like sequencing and arrangement, like design, like making a playlist for your crush in hopes that some of your feelings will be communicated without having to say them outright. Maybe each word is just a small part of some greater whole that we can’t see. Here’s an image to close us out: Each word, a distinct and individual snowflake, falling gently to the surface of the earth, melting upon impact into one continuous ocean.`
+            text: `So, what about words? We do things with words, but words also do things to us. Are words invented or discovered? Is there even a meaningful distinction between the two verbs? In looking at these representations of the latent space between words (in a machine learning / natural language processing context), I get the feeling that words are just objects that have always existed in some sort of abstract idea-space, regardless of our experience of them. Reading and writing are just two different ways of interfacing with words. Maybe the practice of writing is less like invention, and more like sequencing and arrangement, like design, like making a playlist for your crush in hopes that some of your feelings will be communicated without having to say them outright. Maybe each word is just a small part of some greater whole that we can’t see. Here’s an image to close us out: Each word, a distinct and individual snowflake, falling gently to the surface of the earth, melting upon impact into one continuous ocean.`
         },
         {
             imageURL: Img13,
@@ -336,6 +343,7 @@
          <div class="fixed top-0 left-0 m-4 text-secondary text-5xl blur-sm">{author}</div>
 
     {:else}
+
         <div class="fixed top-0 left-0 m-4 text-secondary text-5xl blur-sm">It<br>Turned<br>From<br>Snow<br>to<br>Rain</div>
     {/if}
     <Slide slide={slides[currSlide]} {currClause} last={currClause === numClauses - 1}></Slide>
@@ -352,8 +360,20 @@
                
             {/each}
             </ol>
-            
         </div>
     {/if}
+
+    {#if count > 1}
+        <button on:click={prevSlide} class="fixed left-4 top-1/2 p-1.5 border-solid border border-secondary rounded-full hover:bg-tertiary hover:text-primary hover:border-tertiary hover:[box-shadow:_0_0_2px_#3f8a9a] hover:[text-shadow:_0_0_2px_#c9c9b6] [text-shadow:_0_0_2px_#6b672e] [box-shadow:_0_0_2px_#6b672e] ">
+            <span class="relative -top-[1px]">
+                {"<--"}
+            </span>
+        </button>
+    {/if}
+   {#if count < 205}
+    <button on:click={nextSlide} class="fixed right-4 top-1/2 p-1.5 border-solid border border-secondary rounded-full hover:bg-tertiary hover:text-primary hover:border-tertiary hover:[box-shadow:_0_0_2px_#3f8a9a] hover:[text-shadow:_0_0_2px_#c9c9b6] [text-shadow:_0_0_2px_#6b672e] [box-shadow:_0_0_2px_#6b672e] "><span class="relative -top-[1px]">{"-->"}</span></button>
+   {/if}
+
+
     
 </div>
