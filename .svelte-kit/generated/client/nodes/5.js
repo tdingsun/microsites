@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/naive-yearly-2024/+page.svelte";

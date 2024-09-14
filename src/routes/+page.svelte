@@ -8,6 +8,9 @@
             <li class="lining-nums">
                 <a href="/sva-july-2024" class="hover:italic">It turned from rain to snow [presentation]</a>
             </li>
+            <li class="lining-nums">
+                <a href="/naive-yearly-2024" class="hover:italic">In Defense of the Simulation of Nature [presentation]</a>
+            </li>
         </ol>
     </section>
 
