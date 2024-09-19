@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Slide from "./Slide.svelte";
-  import AlphaMP3 from "$lib/media/Alpha.mp3"
+  import IntroMP3 from "$lib/media/Intro.mp3"
   import landscape from "$lib/images/minecraft/landscape.jpg";
 
   import mattia from "$lib/images/minecraft/mattia.png";
@@ -24,6 +24,7 @@
   import eldenRing from "$lib/images/minecraft/elden-ring.webp";
   import firewatch from "$lib/images/minecraft/firewatch.jpg";
   import atmosphere from "$lib/images/minecraft/minecraft-atmosphere.webp";
+  import nature from "$lib/images/minecraft/nature.jpg";
 
   import diagram1 from "$lib/images/minecraft/diagram-1.png";
   import diagram2 from "$lib/images/minecraft/diagram-2.png";
@@ -38,7 +39,7 @@
   import enderdragonGif from "$lib/images/minecraft/enderdragon.gif";
 
   import crossSection from "$lib/images/minecraft/cross-section.jpg";
-  import firstCave from "$lib/images/minecraft/first-cave.jpg";
+  import firstCave from "$lib/images/minecraft/first-cave.png";
   import fourBlocks from "$lib/images/minecraft/four-blocks.png";
   import herobrineSighting from "$lib/images/minecraft/herobrine-sighting.jpg";
   import treeOfLife from "$lib/images/minecraft/tree-of-life.png";
@@ -47,7 +48,7 @@
   import theEnd from "$lib/images/minecraft/the-end.png"
   import theEnd2 from "$lib/images/minecraft/the-end-2.webp"
   import nether from "$lib/images/minecraft/nether.webp"
-  import mojang from "$lib/images/minecraft/mojang.webp"
+  import mojang from "$lib/images/minecraft/mojang.png"
   import nostalgiaComment from "$lib/images/minecraft/comment-3.png"
   import minecon1 from "$lib/images/minecraft/minecon1.png"
   import minecon2 from "$lib/images/minecraft/minecon2.jpg"
@@ -95,7 +96,7 @@
   import ex from "$lib/images/minecraft/ex.png"
   import twoWeekPhase from "$lib/images/minecraft/two-week-phase.png"
   import twoWeekGif from "$lib/images/minecraft/two-week-gif.gif"
-  import farming from "$lib/images/minecraft/farming-optimization.png"
+  import farming from "$lib/images/minecraft/farming.png"
   import operas from "$lib/images/minecraft/operas.png"
   import oulipo from "$lib/images/minecraft/oulipo.jpg"
   import americanFootball from "$lib/images/minecraft/american-football.jpg"
@@ -169,6 +170,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       imageURL: mattiaGif0,
       caption: null,
       text: "It turns out to lead to this huge structure that Hamzah and Martin had built, filled with impressively minute details of Mattia’s life, including",
+      upscale: true,
     },
     {
       imageURL: mattiaFace,
@@ -199,79 +201,94 @@ import peters from "$lib/images/minecraft/peters.jpg"
       imageURL: mattiaGif1,
       caption: null,
       text: "By the end of the tour, Mattia is incapacitated with fits of incredulous laughter. Then, this is what Hamzah and Martin say to Mattia, in half-sincere half-deadpan tones:",
+      upscale: true,
     },
     {
       imageURL: mattiaGif1,
       caption: null,
       text: "We brought you here … to make you realize that the future’s actually in your hands",
+      upscale: true,
     },
     {
       imageURL: mattiaGif1,
       caption: null,
       text: "Mattia, every decision you make has an effect on your life. you are in control of your future. every single house … represents a single moment in your life. and you have control, at every decision, every fork in the road, to pick your destiny. ",
+      upscale: true,
     },
     {
-      imageURL: mattiaGif2,
+      imageURL: mattiaGif1,
       caption: null,
       text: "I hope this resonates with you and makes you realize how delicate life is and how fragile it is, where every single decision you make can change the outcome of your life. This is Mattia world. This is Mattia Polibio world. and we’re just living in it. ",
+      upscale: true,
     },
     {
-      imageURL: mattiaGif2,
+      imageURL: mattiaGif1,
       caption: null,
       text: "All your friends, your family, your tiktok trends you started, toilet bowl licking and what not, […] it wasn’t an accident. ",
+      upscale: true,
     },
     {
-      imageURL: mattiaGif2,
+      imageURL: mattiaGif1,
       caption: null,
       text: "Do you understand the message we’re trying to tell you?",
+      upscale: true,
     },
     {
       imageURL: mattiaGif2,
       caption: null,
       text: "Mattia, catching his breath,  replies, ‘yes, I think so. Where are we going now?’",
+      upscale: true,
     },
     {
-      imageURL: mattiaGif3,
+      imageURL: mattiaGif2,
       caption: null,
       text: "Hamzah replies with as much profundity as he can muster, “We’re going right back to where we started.”",
+      upscale: true,
     },
     {
-      imageURL: mattiaGif3,
+      imageURL: mattiaGif2,
       caption: null,
       text: "And that's where the video ends.",
+      upscale: true,
     },
     {
-      imageURL: mattiaGif3,
+      imageURL: mattiaGif2,
       caption: null,
       text: "It’s an admittedly dumb video, and the profound tone is probably more tongue-in-cheek than sincere. But as the characteristically introspective Minecraft music kicked in towards the end, I wondered if the expression left on Mattia’s face betrayed a real sense of uncanny introspection as he saw his life, his past, and his memories spatialized as a sprawling dream-like grid of suburban homes—in Minecraft, of all places.",
+      upscale: true,
     },
     {
       imageURL: mattiaGif3,
       caption: null,
       text: "I couldn't help but be struck by the last shot of the video, a trancelike ascension back toward the surface. They had gotten me. It reminded me of similar numinous feelings I've had before, while investing hours in various video games and being struck by their vistas:",
+      upscale: true,
     },
     {
       imageURL: botw,
       caption: null,
       text: "like this,",
+      upscale: true,
     },
     {
       imageURL: firewatch,
       caption: null,
       text: "or this,",
+      upscale: true,
     },
     {
       imageURL: eldenRing,
       caption: null,
       text: "or this,",
+      upscale: true,
     },
     {
       imageURL: animalCrossing,
       caption: null,
       text: "or this.",
+      upscale: true,
     },
     {
-      imageURL: atmosphere,
+      imageURL: nature,
       caption: null,
       text: "And this feeling, of course, is not unlike being in proximity to IRL nature’s sublime, but it also felt distinct, unique to the particular detached space of a game. ",
     },
@@ -445,6 +462,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       caption: null,
       text: "Interior Landscapes",
       title: true,
+      multipy: true,
     },
     {
       imageURL: walden,
@@ -505,6 +523,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       imageURL: redBook,
       caption: null,
       text: "This sounds a lot like Carl Jung’s ‘active imagination’, a technique he developed to explore his unconscious through dreams and visions, as extensively documented in Jung’s Red Book. ‘’Active Imagination’ is a process of consciously engaging with one unconscious and its manifold characters and symbols, entering a sort of ‘imaginal realm’, or ‘mundus imaginalis,’ as philosopher Henry Corbin calls it. There is an actual ‘place-ness’ at work here, and I’m speaking in a manner that’s a bit more real than metaphor.",
+      multiply: true,
     },
     {
       imageURL: animaMundi,
@@ -540,6 +559,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       imageURL: collectiveUnconscious,
       caption: null,
       text: "One such scholar, Matthew Horrigan, writes that “dreams, digital games, and the imagination all involve imaginary worlds, with digital games intersubjectively distributing the practice of imagination by means of audiovisual signifiers and interaction patterns.” That sounds a lot like the collective unconscious to me. Beyond interactivity, what a video game promises is not just rendered image and sound, not just narrative, not even just the joy of play, but inhabitation of an imaginary and imaginal realm that is shared with others.",
+      multiply: true,
     },
     {
       imageURL: sohravardi,
@@ -556,6 +576,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       caption: null,
       text: "Magic Circles",
       title: true,
+      multiply: true,
     },
     {
       imageURL: liminal,
@@ -606,7 +627,8 @@ import peters from "$lib/images/minecraft/peters.jpg"
       imageURL: diagram1c,
       caption: null,
       text: "Simulations of Nature",
-      title: true
+      title: true,
+      multiply: true
     },
     {
       imageURL: procedural,
@@ -636,7 +658,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
     {
       imageURL: farming,
       caption: null,
-      text: "Minecraft holds a certain tension between its  systematic mathematical side, and its emotional creative side. Some players dive deep into the technical mechanics of the game, learning how to create the most yield-optimal wheat and livestock  farms, for example. Others are more interested in role-playing detailed narratives.",
+      text: "Minecraft holds a certain tension between its  systematic mathematical side, and its emotional creative side. Some players dive deep into the technical mechanics of the game, learning how to create the most yield-optimal crop and livestock  farms, for example. Others are more interested in role-playing detailed narratives.",
     },
     {
       imageURL: operas,
@@ -818,6 +840,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       imageURL: sun,
       caption: null,
       text: "“Squaring the Circle”, a concept in alchemy that represents the transfiguration of the spiritual (the circle) into the physical (the square), takes on new meaning in Minecraft when one realizes that even the sun in the sky is a square.",
+      multiply: true
     },
     {
       imageURL: null,
@@ -903,6 +926,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       imageURL: null,
       caption: null,
       text: "The End is Not the End",
+      showAudio: true
     },
     {
       imageURL: endPoemTattoo,
@@ -912,12 +936,12 @@ import peters from "$lib/images/minecraft/peters.jpg"
     {
       imageURL: endPoemText2,
       caption: null,
-      text: "The End Poem was written by Julian Gough, who was friends with Notch (the creator of Minecraft) at the time. The poem was technically not acquired by Microsoft back in 2014, and was made public domain by Gough in 2022. ",
+      text: "The End Poem was written by Julian Gough, who was friends with Notch (the creator of Minecraft) at the time. The poem was technically not acquired by Microsoft back in 2014, and was made public domain by Gough in 2022.",
     },
     {
       imageURL: treeRedBook2,
       caption: null,
-      text: "The conceit of the poem is that two god-like entities are speaking about the player—the real player, not Steve the avatar. They are aware that the player, who is now transcended into a higher plane after defeating the enderdragon, is reading the poem. They directly compare Minecraft to ‘a dream’—making a distinction between ‘the long dream of life, ‘ and ‘the short dream of a game.’ To these two entities, words are an ‘interface’, just like the interface of the game screen. In fact, they call ‘dreams’ the original interface. “A million years old, and it still works”",
+      text: "The conceit of the poem is that two god-like entities are speaking about the player—the real player, not Steve the avatar. They are aware that the player, who is now transcended into a higher plane after defeating the enderdragon, is reading the poem. They directly compare Minecraft to ‘a dream’—making a distinction between ‘the long dream of life,‘ and ‘the short dream of a game.’ To these two entities, words are an ‘interface,’ just like the interface of the game screen. In fact, they call ‘dreams’ the original interface. “A million years old, and it still works”",
     },
     {
       imageURL: endPoemText,
@@ -927,7 +951,87 @@ import peters from "$lib/images/minecraft/peters.jpg"
     {
       imageURL: endPoemText,
       caption: null,
-      text: "“Who are we? Once we were called the spirit of the mountain. Father sun, mother moon. Ancestral spirits, animal spirits. Jinn. Ghosts. The green man. Then gods, demons. Angels. Poltergeists. Aliens, extraterrestrials. Leptons, quarks. The words change. We do not change.”",
+      text: "“Who are we?",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Once we were called the spirit of the mountain.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "“Father sun,",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "mother moon.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Ancestral spirits,",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "animal spirits.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Jinn.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Ghosts.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "The green man.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Then gods,",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "demons.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Angels.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Poltergeists.”",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Aliens, extraterrestrials.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "Leptons, quarks.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "The words change.",
+    },
+    {
+      imageURL: endPoemText,
+      caption: null,
+      text: "We do not change.”",
     },
     {
       imageURL: endPoemText,
@@ -1032,7 +1136,10 @@ import peters from "$lib/images/minecraft/peters.jpg"
       ><span class="relative -top-[1px]">{"-->"}</span></button
     >
   {/if}
-  <audio controls>
-    <source src={AlphaMP3} type="audio/mpeg">
-  </audio>
+  <div class="{slides[currSlide].showAudio ? 'opacity-100' : 'opacity-0'} fixed top-0 left-0 w-screen h-screen flex justify-center items-center">
+    <audio controls>
+      <source src={IntroMP3} type="audio/mpeg">
+    </audio>
+  </div>
+
 </div>

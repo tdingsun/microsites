@@ -4,8 +4,8 @@
 
 <div>
     {#if slide.imageURL}
-        <div class="w-full p-16  h-screen {slide.title ? "" : "pb-56"}">
-            <img src={slide.imageURL} alt="slide image" class="w-full h-full object-scale-down mix-blend-multiply"/>
+        <div class="w-full p-16  h-screen {slide.title ? "pb-24 pt-20" : "pb-56"}">
+            <img src={slide.imageURL} alt="slide" class="w-full h-full {slide.upscale ? 'object-contain' : 'object-scale-down'} {slide.multiply ? 'mix-blend-multiply' : 'mix-blend-darken'}"/>
         </div>
     {/if}
     {#if slide.caption}
