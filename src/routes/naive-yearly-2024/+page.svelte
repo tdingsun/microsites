@@ -592,7 +592,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: sohravardi,
-      caption: null,
+      caption: "Manuscript of Suhrawardi's Hikmat al-Ishraq. Copy created in post-Seljuq Iran, dated 13 October 1220",
       text: "Corbin traces the idea of the imaginal realm to the ideas of Sohravardi, a notable 12th century Persian philosopher who describes a place that he calls “Na-Koja-Abad”—literally “no-where-land”—a “realm of suspended images”  that is not geographically locatable but is yet ontologically “real.”",
     },
     {
