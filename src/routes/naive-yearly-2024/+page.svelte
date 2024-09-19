@@ -515,12 +515,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: mingPainting1,
-      caption: null,
+      caption: "Landscape in the Style of Mi Fu, attributed to Dong Qichang, dated 1611 and 1612",
       text: "This is a Chinese landscape painting from the late-Ming era.",
     },
     {
       imageURL: mingPainting1,
-      caption: null,
+      caption: "Landscape in the Style of Mi Fu, attributed to Dong Qichang, dated 1611 and 1612",
       text: "While all landscape paintings are meant to evoke emotion, landscape paintings from this era were not regarded as closed objects available to the viewer for mere aesthetic appreciation. Instead, they were thought to possess an interiority that afforded space for the human spirit to roam in.",
     },
     {
@@ -545,7 +545,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: mingPainting2,
-      caption: null,
+      caption: "The Thatched Hut of Dreaming of an Immortal, Tang Yin, Ming dynasty, late 15th to early 16th century",
       text: "There’s a certain teleology associated with the practice of viewing Chinese landscape paintings, which involves the merging of the beholder’s human body with that of a purported broader cosmic body, thereby also giving interiority to the physical world–including landscape. Access to this space, or, “entering the mountains,” allowed for a momentary yet reproducible experience of transcendence.",
     },
     {
@@ -1107,6 +1107,11 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       caption: null,
       text: "And now it’s time to wake up.",
     },
+    {
+      imageURL: sad,
+      caption: null,
+      text: "(thank you)",
+    },
   ];
 
   $: currSlide = 0;
@@ -1146,7 +1151,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
   {/if}
   <Slide slide={slides[currSlide]} />
   <div class="fixed top-0 right-0 m-4 text-secondary text-5xl blur-sm">
-    {currSlide + 1}
+    {currSlide + 1}/{slides.length}
   </div>
   {#if currSlide > 0}
     <button
@@ -1158,7 +1163,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       </span>
     </button>
   {/if}
-  {#if currSlide < slides.length}
+  {#if currSlide < slides.length - 1}
     <button
       on:click={nextSlide}
       class="fixed right-4 top-1/2 p-1.5 border-solid border border-secondary rounded-full hover:bg-tertiary hover:text-primary hover:border-tertiary hover:[box-shadow:_0_0_2px_#3f8a9a] hover:[text-shadow:_0_0_2px_#c9c9b6] [text-shadow:_0_0_2px_#6b672e] [box-shadow:_0_0_2px_#6b672e]"
