@@ -577,7 +577,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: redBookMisc,
       caption: "Illustration from Carl Jung’s Red Book",
-      text: "“Imaginal” has more to do with the word “image” rather than “imagination”, and refers to images that “comes through to us” from the unconscious, like what happens during Jung’s active imagination process, and in dreams, and in hypnagogic states.",
+      text: "“Imaginal” has more to do with the word “image” rather than “imagination”, and refers to images that “comes through to us” from the unconscious, not “in the mind's eye,” but in an actual sensory way, like what happens during Jung’s active imagination process, and in dreams, and in hypnagogic states.",
     },
     {
       imageURL: torus,
