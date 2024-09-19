@@ -16,14 +16,14 @@
     {/if}
     {#if slide.text}
     
-    <div class="{slide.title ? "text-center" : ""} fixed bottom-0 left-0 w-full  p-4 text-3xl text-primary tracking-tight leading-[1.3] [text-shadow:_0_0_3px_#c9c9b6]">
+    <div class="{slide.title || !slide.imageURL ? "text-center text-5xl" : ""} fixed bottom-0 left-0 w-full  p-4 text-3xl text-primary tracking-tight leading-[1.3] [text-shadow:_0_0_3px_#c9c9b6]">
         {slide.text}
     </div>
-        <div class="{slide.title ? "text-center" : ""} fixed bottom-0 left-0  w-full p-4 text-3xl text-primary tracking-tight leading-[1.3] [text-shadow:_0_0_3px_#6b672e]">
+        <div class="{slide.title || !slide.imageURL ? "text-center text-5xl" : ""} fixed bottom-0 left-0  w-full p-4 text-3xl text-primary tracking-tight leading-[1.3] [text-shadow:_0_0_3px_#6b672e]">
             {slide.text}
         </div>
         
-        <div class="{slide.title ? "text-center" : ""} fixed bottom-0 left-0 w-full p-4 text-3xl text-secondary tracking-tight leading-[1.3]">
+        <div class="{slide.title || !slide.imageURL ? "text-center text-5xl" : ""} fixed bottom-0 left-0 w-full p-4 text-3xl text-secondary tracking-tight leading-[1.3]">
             {slide.text}
         </div>
     {/if}

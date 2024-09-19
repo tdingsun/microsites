@@ -27,6 +27,10 @@
   import diagram1 from "$lib/images/minecraft/diagram-1.png";
   import diagram2 from "$lib/images/minecraft/diagram-2.png";
 
+  import diagram1a from "$lib/images/minecraft/diagram1-a.png";
+  import diagram1b from "$lib/images/minecraft/diagram1-b.png";
+  import diagram1c from "$lib/images/minecraft/diagram1-c.png";
+
   import minecraftOfficial from "$lib/images/minecraft/minecraft-official.webp"
   import basicWorld from "$lib/images/minecraft/overworld.webp"
   import vinyl from "$lib/images/minecraft/vinyl.jpeg";
@@ -74,7 +78,7 @@
   import mundusImaginalis from "$lib/images/minecraft/mundus-imaginalis.jpg"
   import sohravardi from "$lib/images/minecraft/sohravardi.jpg";
   import redBookMisc from "$lib/images/minecraft/red-book-misc.png";
-  import torus from "$lib/images/minecraft/torus.webp";
+  import torus from "$lib/images/minecraft/torus.png";
   import zoomedOutMulti from "$lib/images/minecraft/zoomed-out-multi.png"
   import lostWorldComment from "$lib/images/minecraft/lost-world-reddit.png"
   import convo from "$lib/images/minecraft/convo.gif"
@@ -124,8 +128,12 @@
   import sun from "$lib/images/minecraft/sun.webp"
   import recipes from "$lib/images/minecraft/crafting-recipes.png"
     import treePunching from "$lib/images/minecraft/tree-punching.jpg"
-  import diamonds from "$lib/images/minecraft/tree-punching.jpg"
-
+  import diamonds from "$lib/images/minecraft/diamonds.png"
+    import tnt from "$lib/images/minecraft/tnt.webp"
+import woodenTools from "$lib/images/minecraft/wooden-tools.jpg"
+import industrial from "$lib/images/minecraft/industrial.png"
+import jungEgg from "$lib/images/minecraft/jung-egg.png"
+import peters from "$lib/images/minecraft/peters.jpg"
   let title = "In Defense of the Simulation of Nature";
   let author = "Tiger Dingsun";
 
@@ -374,7 +382,12 @@
     {
       imageURL: tweet1,
       caption: null,
-      text: "Minecraft is a game with very few guardrails, inviting players to create their own structures—both in the architectural sense, and in terms of structuring one’s own game play style. For instance, media researchers Joel Schneier and Nicholas Taylor make a distinction between time-biased “monumentary” play, which entails building long-lasting structures, grounding themselves to specific in-game locations, and returning to the same Minecraft world;  and space-biased “momentary” play—characterized by nomadic exploration, survivalist fantasies, and ephemeral worlds that were routinely deleted and replaced.",
+      text: "Minecraft is a game with very few guardrails, inviting players to create their own structures—both in the architectural sense, and in terms of structuring one’s own game play style.",
+    },
+    {
+      imageURL: tweet1,
+      caption: null,
+      text: "For instance, media researchers Joel Schneier and Nicholas Taylor make a distinction between time-biased “monumentary” play, which entails building long-lasting structures, grounding themselves to specific in-game locations, and returning to the same Minecraft world;  and space-biased “momentary” play—characterized by nomadic exploration, survivalist fantasies, and ephemeral worlds that were routinely deleted and replaced.",
     },
     {
       imageURL: minecon1,
@@ -427,9 +440,10 @@
       text: "To extend that even further, what if I said that there is  no virtual, it’s all part of reality?  Or  that there is no artifice — it's all part of nature? Or, even more broadly, that there is no outside — it's all part of some interior?",
     },
     {
-      imageURL: null,
+      imageURL: diagram1b,
       caption: null,
       text: "Interior Landscapes",
+      title: true,
     },
     {
       imageURL: walden,
@@ -444,7 +458,12 @@
     {
       imageURL: pond,
       caption: null,
-      text: "Throughout the history of art and literature, landscape has always been a metaphor for inner life. Certainly, there is an argument to be made for a transcendentalist reading of Minecraft — however transcendentalists would have probably been quick to point out the difference between nature and its representations. Ralph Waldo Emerson writes in Nature about the connection between joy, reason, and time spent in nature, decrying everything else that comes in between. Emerson asks, “Why should not we also enjoy an original relation to the universe?” To which I might respond, what makes a relation with media not an original relation to the universe?",
+      text: "Throughout the history of art and literature, landscape has always been a metaphor for inner life. Certainly, there is an argument to be made for a transcendentalist reading of Minecraft — however transcendentalists would have probably been quick to point out the difference between nature and its representations. ",
+    },
+    {
+      imageURL: pond,
+      caption: null,
+      text: "Ralph Waldo Emerson writes in Nature about the connection between joy, reason, and time spent in nature, decrying everything else that comes in between. Emerson asks, “Why should not we also enjoy an original relation to the universe?” To which I might respond, what makes a relation with media not an original relation to the universe?",
     },
     {
       imageURL: mingPainting1,
@@ -464,7 +483,12 @@
     {
       imageURL: scholarRock,
       caption: null,
-      text: "Both mediums bridge an empirical distance separating the inner mind from the external world. This particular mode of perception has its roots in premodern Daoist thought, which suggest that human beings and landscapes are connected through a shared interiority, a realm of being where objective differences become less acute, where the self is no longer defined by social identity but through its symbolic equivalence with environment, world, and cosmos. In this view, the ontology of a landscape, whether it is painted or not, is equivalent to that of a human being, and vice versa; so much so that they are formulated in each other’s image, embodying each other’s image.",
+      text: "Both mediums bridge an empirical distance separating the inner mind from the external world. This particular mode of perception has its roots in premodern Daoist thought, which suggest that human beings and landscapes are connected through a shared interiority, a realm of being where objective differences become less acute, where the self is no longer defined by social identity but through its symbolic equivalence with environment, world, and cosmos.",
+    },
+    {
+      imageURL: scholarRock,
+      caption: null,
+      text: "In this view, the ontology of a landscape, whether it is painted or not, is equivalent to that of a human being, and vice versa; so much so that they are formulated in each other’s image, embodying each other’s image.",
     },
     {
       imageURL: fish,
@@ -509,7 +533,12 @@
     {
       imageURL: torus,
       caption: null,
-      text: "Video game worlds are both ‘imaginary’ and ‘imaginal’. Various new media scholars have also made the analog between video games and dreams.  One such scholar, Matthew Horrigan, writes that “dreams, digital games, and the imagination all involve imaginary worlds, with digital games intersubjectively distributing the practice of imagination by means of audiovisual signifiers and interaction patterns”. That sounds a lot like the collective unconscious to me. Beyond interactivity, what a video game promises is not just rendered image and sound, not just narrative, not even just the joy of play, but inhabitation of an imaginary and imaginal realm that is shared with others.",
+      text: "Video game worlds are both ‘imaginary’ and ‘imaginal’. Various new media scholars have also made the analog between video games and dreams.",
+    },
+    {
+      imageURL: collectiveUnconscious,
+      caption: null,
+      text: "One such scholar, Matthew Horrigan, writes that “dreams, digital games, and the imagination all involve imaginary worlds, with digital games intersubjectively distributing the practice of imagination by means of audiovisual signifiers and interaction patterns.” That sounds a lot like the collective unconscious to me. Beyond interactivity, what a video game promises is not just rendered image and sound, not just narrative, not even just the joy of play, but inhabitation of an imaginary and imaginal realm that is shared with others.",
     },
     {
       imageURL: sohravardi,
@@ -522,9 +551,10 @@
       text: "I’d like to posit Minecraft as a “no-where:” a place that one can’t actually physically enter, and yet exists nonetheless. a place that has very little history or myth built in, but in which the player creates lore just by inhabiting it. in a randomly generated landscape that is essentially homogeneous from a zoomed out view, in this place outside of ‘where’, it is up to the player to construct the ‘where’, to build and recognize landmarks and places with meaning to the player through exploration of the world.",
     },
     {
-      imageURL: null,
+      imageURL: diagram1a,
       caption: null,
       text: "Magic Circles",
+      title: true,
     },
     {
       imageURL: liminal,
@@ -572,6 +602,12 @@
       text: "Nostalgia pulls us back into the magic circle, but as many Jungians have noted, there are two mistakes one can make in regards to these spaces: we provide no ritual space at all in our lives […], or we stay in them too long. Perhaps the two-week phase of Minecraft represents a re-centering, a necessary but temporary enclave to step outside of daily life.",
     },
     {
+      imageURL: diagram1c,
+      caption: null,
+      text: "Simulations of Nature",
+      title: true
+    },
+    {
       imageURL: procedural,
       caption: null,
       text: "A defining characteristic of Minecraft is that its terrain is procedurally-generated based on a random seed, which is just a numeric string. There are 2^64 or ~18 quintillion possible seeds, meaning there are 18 quintillion possible unique worlds that Minecraft can generate.",
@@ -579,10 +615,20 @@
     {
       imageURL: misc3,
       caption: null,
-      text: "This is one of the main reasons why Minecraft has such staying power—The sheer amount of unique content provides a continuous sense of discovery and serendipity that random content creation provides. However, some critics suggest that the procedural generation is somewhat incidental, merely a “numbers game” providing only “technically” unique content that doesn’t actually offer that much novelty, and that it is the social aspect that actually sustains Minecraft as a platform. The answer probably lies in both. For example, part of the pleasure of playing with others in Minecraft is precisely in the “numbers game” of dividing up labor to find, harvest, and build more efficiently.  The randomness and procedural generation in Minecraft scaffolds both single and multiplayer experiences and in fact provide the drive for much of its social aspects.",
+      text: "This is one of the main reasons why Minecraft has such staying power—The sheer amount of unique content provides a continuous sense of discovery and serendipity that random content creation provides.",
     },
     {
-      imageURL: null,
+      imageURL: misc3,
+      caption: null,
+      text: "However, some critics suggest that the procedural generation is somewhat incidental, merely a “numbers game” providing only “technically” unique content that doesn’t actually offer that much novelty, and that it is the social aspect that actually sustains Minecraft as a platform.",
+    },
+    {
+      imageURL: misc3,
+      caption: null,
+      text: "The answer probably lies in both. For example, part of the pleasure of playing with others in Minecraft is precisely in the “numbers game” of dividing up labor to find, harvest, and build more efficiently.  The randomness and procedural generation in Minecraft scaffolds both single and multiplayer experiences and in fact provide the drive for much of its social aspects.",
+    },
+    {
+      imageURL: jungEgg,
       caption: null,
       text: "One of Jung's foundational precepts is about “holding the tension of the opposites”— learning how to make space for seemingly diametrically-opposed ideas or perspectives.",
     },
@@ -607,19 +653,24 @@
       text: "Minecraft can be seen as a vocabulary and grammar that people use to create so many things that exist both within and without the game. For Oulipo, both the rules of a piece of constrained writing as well as the author’s choices act as co-authors for the text.  For Minecraft, the ‘game’ does not solely come from the procedural structure of the game, but also from the player’s activation of the software, which could be affected by any number of external circumstances, perspectives, and attitudes that the player may hold. ",
     },
     {
-      imageURL: null,
+      imageURL: industrial,
       caption: null,
       text: "Simulations of nature are ways to imagine alternate relations with nature. Often, these computational simulations can easily be read as fantasies of capitalist frontier expansionism, enabled by the reduced material constraints of the digital. ",
     },
     {
-      imageURL: null,
+      imageURL: misc2,
       caption: null,
       text: "But within Minecraft, player and game share “a subtle copresence.” The 'numbers game'  combines with ecological aesthetics, atmospheric music, and the player’s own choices, to create a digital ecology that points to both “the embeddedness of the human in an environmental system as well as their irrelevance to its mundane operations.” There are processes in Minecraft that go on without user interaction, but the user is also able to interact with every element in the game. In writing about games that strive to model ecological principles, media theorist Alenda Chang observes that one fundamental mistake video game designers make is that they relegate environments to the background. But everything in Minecraft is interactable — that's the whole point—the environment is entirely foregrounded.",
     },
     {
       imageURL: sheep,
       caption: null,
-      text: "While colonial frontier archetypes are absolutely present in Minecraft, the game also offers many more options for alternative relations. The beauty of the game comes from the emptiness of its  terrains, dotted with only a few sentient creatures and no industrial communities. There is plenty of space, literally and figuratively, for coexisting with the natural world rather than conquering it. Some game mechanics seem to more explicitly suggest the value of stewardship. For example, killing a sheep yields 1 wool, but shearing it yields 3 wool and the sheep can grow more wool. Whether one sees the bountiful resources of each block as a gift or as something to take, is dependent on the player’s perspective.",
+      text: "While colonial frontier archetypes are absolutely present in Minecraft, the game also offers many more options for alternative relations. The beauty of the game comes from the emptiness of its  terrains, dotted with only a few sentient creatures and no industrial communities. There is plenty of space, literally and figuratively, for coexisting with the natural world rather than conquering it.",
+    },
+    {
+      imageURL: sheep,
+      caption: null,
+      text: "Some game mechanics seem to more explicitly suggest the value of stewardship. For example, killing a sheep yields 1 wool, but shearing it yields 3 wool and the sheep can grow more wool. Whether one sees the bountiful resources of each block as a gift or as something to take, is dependent on the player’s perspective.",
     },
     {
       imageURL: froebel1,
@@ -657,7 +708,7 @@
       text: "If Wright played Minecraft, he would definitely be one of those people that start seeing everything IRL as made of blocks.",
     },
     {
-      imageURL: null,
+      imageURL: woodenTools,
       caption: null,
       text: "It’s significant, also, that Froebel blocks are made of wood, because wooden toys have a long association with timelessness, quality, and craftsmanship, especially within Scandinavia (remember Mojang’s Swedish origins).  In Minecraft, wood is one of the first resources new players can gather, and allows them to build tools that can harvest other materials.",
     },
@@ -667,12 +718,12 @@
       text: "For generations of kids who grew up with childhoods entangled in Minecraft worlds, how does that affect how they relate with nature? How does it affect how they relate with media? How do nature and media relate to each other?",
     },
     {
-      imageURL: null,
+      imageURL: peters,
       caption: null,
       text: "Well, all media has to do with resisting entropy and mortality.",
     },
     {
-      imageURL: null,
+      imageURL: peters,
       caption: null,
       text: "I always find myself returning to the writing of media theorist  John Durham Peters, who frames media as something ecological and existential:",
     },
@@ -682,22 +733,28 @@
       text: "“Media show up wherever we humans face the unmanageable mortality of our material existence: the melancholy facts that memory cannot hold up and body cannot last, that time is, at base, the merciless and generous habitat for humans and things. Media lift us out of time by providing a symbolic world that can store and process data, in the widest sense of that word.”",
     },
     {
-      imageURL: null,
+      imageURL: flowers,
       caption: null,
       text: "All media offers us a  magic circle,  'a space outside of space, and a time outside of time'",
     },
     {
-      imageURL: null,
+      imageURL: flowers,
       caption: null,
-      text: " I want to posit artifice as the most natural thing to human beings. The greatest gift of being human is that we have the ability to make media—artifacts of not just information, but also of play, art, emotion, profundity. It’s a gift that we are able to bring interiority ‘outward’ and imbue artifacts with meaning. This is something so fundamental that it almost isn’t worth talking about. As Peters puts it, “Culture is part of our natural history.” Which means that the Internet is a naturally occurring phenomena. Computation is a naturally occurring phenomena. Metaphor is a naturally occurring phenomena.",
+      text: " I want to posit artifice as the most natural thing to human beings. The greatest gift of being human is that we have the ability to make media—artifacts of not just information, but also of play, art, emotion, profundity. It’s a gift that we are able to bring interiority ‘outward’ and imbue artifacts with meaning.",
     },
     {
-      imageURL: null,
+      imageURL: flowers,
+      caption: null,
+      text: "This is something so fundamental that it almost isn’t worth talking about. As Peters puts it, “Culture is part of our natural history.” Which means that the Internet is a naturally occurring phenomena. Computation is a naturally occurring phenomena. Metaphor is a naturally occurring phenomena.",
+    },
+    {
+      imageURL: diagram2,
       caption: null,
       text: "An Archetypal Analysis of Minecraft",
+      title: true
     },
     {
-      imageURL: null,
+      imageURL: diagram2,
       caption: null,
       text: "At this point we’ve explored the relationship between these three domains from a couple of different vantage points. For this last section, I want to offer a somewhat rudimentary archetypal analysis of Minecraft. In other words, what can Minecraft teach us about being human?",
     },
@@ -707,7 +764,7 @@
       text: "Creation and Destruction",
     },
     {
-      imageURL: null,
+      imageURL: tnt,
       caption: null,
       text: "Generally, Minecraft holds the tension of opposing desires to create and to destroy, as player conflicts lead to ‘griefing’ ( intentionally destroying other people’s creations), as new goals necessitate the destruction of old structures, as exploration demands the abandonment of old basecamps. Playing the game reflects the very rhythms of life: birth, death, and rebirth.",
     },
@@ -717,7 +774,7 @@
       text: "Emptiness and Fecundity",
     },
     {
-      imageURL: null,
+      imageURL: diamonds,
       caption: null,
       text: "Related to creation and destruction is the dual nature of emptiness and fecundity. Minecraft is often noted for its sense of emptiness conveyed through its vast wilderness landscape, yet all materials are overly generous (1 block yields 4 wooden planks yields 8 sticks), and every block is a potential resource in an infinitely malleable and fertile landscape.",
     },
@@ -892,7 +949,7 @@
       text: "At the end, it asks the player to wake up. But it's unclear if that means waking up to the Overworld, or waking up to our world.",
     },
     {
-      imageURL: null,
+      imageURL: wakeUp,
       caption: null,
       text: "Gough says about the End Poem,",
     },
