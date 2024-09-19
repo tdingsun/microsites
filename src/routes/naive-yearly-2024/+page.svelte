@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Slide from "./Slide.svelte";
+  import AlphaMP3 from "$lib/media/Alpha.mp3"
   import landscape from "$lib/images/minecraft/landscape.jpg";
 
   import mattia from "$lib/images/minecraft/mattia.png";
@@ -1031,4 +1032,7 @@ import peters from "$lib/images/minecraft/peters.jpg"
       ><span class="relative -top-[1px]">{"-->"}</span></button
     >
   {/if}
+  <audio controls>
+    <source src={AlphaMP3} type="audio/mpeg">
+  </audio>
 </div>
