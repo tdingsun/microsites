@@ -155,7 +155,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
 
 
 
-  let title = "In Defense of the Simulation of Nature: A Hermeneutics of Minecraft";
+  let title = "The End is Not the End (A Hermeneutics of Minecraft)";
   let author = "Tiger Dingsun";
 
   let slides: any = [
@@ -399,7 +399,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mojang,
       caption: null,
-      text: `Minecraft was created by Mojang, a Swedish game development studio founded by Markus "Notch" Persson. It was officially released in 2011, and acquired by Microsoft in 2014 for 2.5 billion US dollars. It’s the best-selling video game of all time with over 300 million sales to date. `,
+      text: `Minecraft was created by Mojang, a Swedish game development studio founded by Markus "Notch" Persson. `,
+    },
+    {
+      imageURL: firstCave,
+      caption: null,
+      text: `It was officially released in 2011, and acquired by Microsoft in 2014 for 2.5 billion US dollars. It’s the best-selling video game of all time with over 300 million sales to date. `,
     },
     {
       imageURL: nostalgiaComment,
@@ -1131,7 +1136,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     </div>
   {:else}
     <div class="fixed top-0 left-0 m-4 text-secondary text-3xl blur-sm">
-      In<br />Defense<br />of the<br />Simulation<br />of<br />Nature
+      The<br />End<br />is<br />Not<br />the<br />End
     </div>
   {/if}
   <Slide slide={slides[currSlide]} />
