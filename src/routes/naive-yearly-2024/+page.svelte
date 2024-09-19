@@ -136,6 +136,25 @@ import woodenTools from "$lib/images/minecraft/wooden-tools.jpg"
 import industrial from "$lib/images/minecraft/industrial.png"
 import jungEgg from "$lib/images/minecraft/jung-egg.png"
 import peters from "$lib/images/minecraft/peters.jpg"
+
+import mountain from "$lib/images/minecraft/mountain.jpg"
+import moon from "$lib/images/minecraft/moon.jpg"
+import ancestors from "$lib/images/minecraft/ancestors.jpg"
+import animalSpirit from "$lib/images/minecraft/animal-spirit.png"
+import jinn from "$lib/images/minecraft/jin.jpg"
+import ghosts from "$lib/images/minecraft/ghosts.webp"
+import greenman from "$lib/images/minecraft/greenman.jpg"
+import gods from "$lib/images/minecraft/gods.jpg"
+import demons from "$lib/images/minecraft/demons.jpg"
+import angels from "$lib/images/minecraft/angels.webp"
+import ufo from "$lib/images/minecraft/ufo.webp"
+import lepton from "$lib/images/minecraft/lepton.png"
+import languages from "$lib/images/minecraft/languages.jpg"
+import poltergeist from "$lib/images/minecraft/poltergeist.png"
+import fatherSun from "$lib/images/minecraft/fatherSun.webp"
+
+
+
   let title = "In Defense of the Simulation of Nature";
   let author = "Tiger Dingsun";
 
@@ -954,77 +973,77 @@ import peters from "$lib/images/minecraft/peters.jpg"
       text: "“Who are we?",
     },
     {
-      imageURL: endPoemText,
+      imageURL: mountain,
       caption: null,
       text: "Once we were called the spirit of the mountain.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: fatherSun,
       caption: null,
       text: "“Father sun,",
     },
     {
-      imageURL: endPoemText,
+      imageURL: moon,
       caption: null,
       text: "mother moon.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: ancestors,
       caption: null,
       text: "Ancestral spirits,",
     },
     {
-      imageURL: endPoemText,
+      imageURL: animalSpirit,
       caption: null,
       text: "animal spirits.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: jinn,
       caption: null,
       text: "Jinn.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: ghosts,
       caption: null,
       text: "Ghosts.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: greenman,
       caption: null,
       text: "The green man.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: gods,
       caption: null,
       text: "Then gods,",
     },
     {
-      imageURL: endPoemText,
+      imageURL: demons,
       caption: null,
       text: "demons.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: angels,
       caption: null,
       text: "Angels.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: poltergeist,
       caption: null,
       text: "Poltergeists.”",
     },
     {
-      imageURL: endPoemText,
+      imageURL: ufo,
       caption: null,
       text: "Aliens, extraterrestrials.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: lepton,
       caption: null,
       text: "Leptons, quarks.",
     },
     {
-      imageURL: endPoemText,
+      imageURL: languages,
       caption: null,
       text: "The words change.",
     },
