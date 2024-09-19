@@ -155,7 +155,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
 
 
 
-  let title = "In Defense of the Simulation of Nature";
+  let title = "In Defense of the Simulation of Nature: A Hermeneutics of Minecraft";
   let author = "Tiger Dingsun";
 
   let slides: any = [
