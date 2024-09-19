@@ -172,7 +172,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: mattia,
-      caption: null,
+      caption: "www.famousbirthdays.com",
       text: "This is Mattia Polibio, a pretty typical mainstream tiktok influencer with 5 million followers. In this video he is a guest on a youtube gaming channel called “Slushy Noobz,” hosted by Hamzah and Martin, who both also initially gained a following on tiktok.",
     },
     {
@@ -183,7 +183,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mattiaFindingRails,
       caption: null,
-      text: "Then, about halfway through the video they discover a set of powered mine-cart rails. they follow the path and…",
+      text: "Then, about halfway through the video they discover a set of powered mine-cart rails. They follow the path and…",
     },
     {
       imageURL: mattiaGif0,
@@ -209,12 +209,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mattiaSoccer,
       caption: null,
-      text: " or his first time playing soccer, ",
+      text: "or his first time playing soccer.",
     },
     {
       imageURL: mattiaNeighborhood,
       caption: null,
-      text: "but it doesn’t stop there, as a huge cavernous space is revealed to be filled with hundreds of copies of his house, each one representing a moment in his life.",
+      text: "But it doesn’t stop there, as a huge cavernous space is revealed to be filled with hundreds of copies of his house, each one representing a moment in his life.",
     },
     {
       imageURL: mattiaGif1,
@@ -225,37 +225,37 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mattiaGif1,
       caption: null,
-      text: "We brought you here … to make you realize that the future’s actually in your hands",
+      text: "“We brought you here […] to make you realize that the future’s actually in your hands”",
       upscale: true,
     },
     {
       imageURL: mattiaGif1,
       caption: null,
-      text: "Mattia, every decision you make has an effect on your life. you are in control of your future. every single house … represents a single moment in your life. and you have control, at every decision, every fork in the road, to pick your destiny. ",
+      text: "“Mattia, every decision you make has an effect on your life. you are in control of your future. every single house … represents a single moment in your life. and you have control, at every decision, every fork in the road, to pick your destiny.”",
       upscale: true,
     },
     {
       imageURL: mattiaGif1,
       caption: null,
-      text: "I hope this resonates with you and makes you realize how delicate life is and how fragile it is, where every single decision you make can change the outcome of your life. This is Mattia world. This is Mattia Polibio world. and we’re just living in it. ",
+      text: "“I hope this resonates with you and makes you realize how delicate life is and how fragile it is, where every single decision you make can change the outcome of your life. This is Mattia world. This is Mattia Polibio world. and we’re just living in it.”",
       upscale: true,
     },
     {
       imageURL: mattiaGif1,
       caption: null,
-      text: "All your friends, your family, your tiktok trends you started, toilet bowl licking and what not, […] it wasn’t an accident. ",
+      text: "“All your friends, your family, your tiktok trends you started, toilet bowl licking and what not, […] it wasn’t an accident. ”",
       upscale: true,
     },
     {
       imageURL: mattiaGif1,
       caption: null,
-      text: "Do you understand the message we’re trying to tell you?",
+      text: "“Do you understand the message we’re trying to tell you?”",
       upscale: true,
     },
     {
       imageURL: mattiaGif2,
       caption: null,
-      text: "Mattia, catching his breath,  replies, ‘yes, I think so. Where are we going now?’",
+      text: "Mattia, catching his breath from laughing so hard,  replies, “Yes, I think so... Where are we going now?”",
       upscale: true,
     },
     {
@@ -267,7 +267,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mattiaGif2,
       caption: null,
-      text: "And that's where the video ends.",
+      text: "And that’s where the video ends.",
       upscale: true,
     },
     {
@@ -284,37 +284,37 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: botw,
-      caption: null,
+      caption: "Breath of the Wild",
       text: "like this,",
       upscale: true,
     },
     {
       imageURL: firewatch,
-      caption: null,
+      caption: "Firewatch",
       text: "or this,",
       upscale: true,
     },
     {
       imageURL: eldenRing,
-      caption: null,
+      caption: "Elden Ring",
       text: "or this,",
       upscale: true,
     },
     {
       imageURL: animalCrossing,
-      caption: null,
+      caption: "Animal Crossing",
       text: "or this.",
       upscale: true,
     },
     {
       imageURL: nature,
       caption: null,
-      text: "And this feeling, of course, is not unlike being in proximity to IRL nature’s sublime, but it also felt distinct, unique to the particular detached space of a game. ",
+      text: "And this feeling, of course, is not unlike being in proximity to IRL nature’s sublime, but it also felt distinct, unique to the particular detached space of a game.",
     },
     {
       imageURL: diagram1,
       caption: null,
-      text: "I wanted to map out the  relationship between game worlds, the physical world, and the inner world of the psyche, so I drew this diagram of how they bleed into one another, how they all operate under similar metaphors, and how ‘space’ and ‘world’ themselves were metaphors I had previously taken for granted.",
+      text: "I wanted to map out the relationship between game worlds, the physical world, and the inner world of the psyche, so I drew this diagram of how they bleed into one another, how they all operate under similar metaphors, and how ‘space’ and ‘world’ themselves were metaphors I had previously taken for granted.",
     },
     {
       imageURL: diagram1,
@@ -344,17 +344,17 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: diagram2,
       caption: null,
-      text: "In which material reality encompasses both virtual spaces and psychic spaces. Even though we tend to separate 'mind' from 'matter', and the 'virtual' from the 'real', one could argue that they still come from the same physical, biological, and evolutionary roots as we do. Humans make media, but nature makes us.",
+      text: "In which material reality encompasses both virtual spaces and psychic spaces. Even though we tend to separate “mind” from “matter,” and the “virtual” from the “real,” one could argue that they still come from the same physical, biological, and evolutionary roots as we do. Humans make media, but nature makes us.",
     },
     {
       imageURL: diagram2,
       caption: null,
-      text: "I also wanted to represent the Jungian idea of the collective unconscious, which, paradoxically, is found deep within us and yet permeates the world. In this way, the 'inside becomes outside', a process described as 'topographical inversion' by the French philosopher and theologian Henry Corbin, a concept that I will return to later.",
+      text: "I also wanted to represent the Jungian idea of the collective unconscious, which, paradoxically, is found deep within us and yet permeates the world. In this way, the “inside becomes outside,” a process described as “topographical inversion” by the French philosopher and theologian Henry Corbin, a concept that I will return to later.",
     },
     {
       imageURL: minecraftOfficial,
       caption: null,
-      text: "I'm going to be using Minecraft as an object lesson to explore these relations, although I’m hoping that these ideas can be expanded to any virtual space that feels ‘inhabited.’",
+      text: "I'm going to be using Minecraft as an object lesson to explore these relations, although I’m hoping that these ideas can be expanded to any virtual space that feels “inhabited.”",
     },
     {
       imageURL: vinyl,
@@ -362,14 +362,19 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       text: "So why Minecraft?",
     },
     {
+      imageURL: vinyl,
+      caption: null,
+      text: "First, some preliminaries:",
+    },
+    {
       imageURL: basicWorld,
       caption: null,
-      text: "Minecraft is an open-world block-based sandbox game in which players explore a near-infinite, procedurally-generated landscape. Each world spans 30 million blocks in every direction, and 1 block is meant to represent 1 cubic meter. This means that the size of a world is approximately 8 times the area of the surface of the Earth. ",
+      text: "Minecraft is an open-world block-based sandbox game in which players explore a near-infinite, procedurally-generated landscape. Each world spans 30 million blocks in every direction, and 1 block is meant to represent 1 cubic meter. This means that the size of a world is approximately 8 times the area of the surface of the Earth.",
     },
     {
       imageURL: fourBlocks,
       caption: null,
-      text: "The environment is entirely made up of different types of blocks, like dirt, cobblestone, sand, as well as many more exotic materials. Players can mine any block, craft items and tools from them, and build practically anything. ",
+      text: "The environment is entirely made up of different types of blocks, like dirt, cobblestone, sand, as well as many more exotic materials. Players can mine any block, craft items and tools from them, and build practically anything.",
     },
     {
       imageURL: mobs,
@@ -384,7 +389,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: nether,
       caption: null,
-      text: "The ‘Nether’,  an eerie, hostile hell-world containing seas of lava and hostile mobs. Space works differently here: every 8 blocks traveled on the overworld equates to 1 block in the Nether.",
+      text: "The Nether,  an eerie, hostile hell-world containing seas of lava and hostile mobs. Space works differently here: every 8 blocks traveled on the overworld equates to 1 block in the Nether.",
     },
     {
       imageURL: theEnd2,
@@ -394,7 +399,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: enderdragonGif,
       caption: null,
-      text: " It is here that players encounter the supposed final boss—the Enderdragon, although defeating the Enderdragon is merely one available ‘telos’ of the game out of many.",
+      text: " It is here that players encounter the supposed final boss—the Enderdragon, although defeating the Enderdragon is merely one available telos of the game out of many.",
     },
     {
       imageURL: mojang,
@@ -414,12 +419,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: dad,
       caption: null,
-      text: "Minecraft is often thought of as children's media despite a wide age demographic. In fact, the average player age is 24.  ",
+      text: "Minecraft is often thought of as children’s media despite a wide age demographic. In fact, the average player age is 24.",
     },
     {
       imageURL: lifeGame,
       caption: null,
-      text: "Even so,  the virtual worlds children spend time in (like Minecraft, Roblox, Fortnite, etc)—should be examined more critically, since it shapes their relationship to media both structurally and aesthetically, which really starts to matter as they grow up to be cultural producers in their own right.",
+      text: "Even so, the virtual worlds children spend time in (like Minecraft, Roblox, Fortnite, etc)—should be examined more critically, since it shapes their relationship to media both structurally and aesthetically, which really starts to matter as they grow up to be cultural producers in their own right.",
     },
     {
       imageURL: tweet1,
@@ -434,7 +439,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: minecon1,
       caption: null,
-      text: "But Minecraft isn’t just a game. Minecraft had a big part in the evolution of new forms of media ecologies that we now find ourselves in today: extensive online participatory cultures, in which the lines between media production and consumption blur—a multi-centered “videogame commons” that exist on youtube, forums, wikis, etc. ",
+      text: "But Minecraft isn’t just a game. Minecraft had a big part in the evolution of new forms of media ecologies that we now find ourselves in today: extensive online participatory cultures, in which the lines between media production and consumption blur—a multi-centered “videogame commons” that exist on youtube, forums, wikis, etc.",
     },
     {
       imageURL: minecon2,
@@ -444,32 +449,32 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: parkour,
       caption: null,
-      text: "Relaxing Minecraft parkour videos that serve as the background for AI-voiced reddit stories that feel ubiquitous on social media, intended to induce a vicarious ‘flow state’ in the viewer to maintain attention",
+      text: "Relaxing Minecraft parkour videos that serve as the background for AI-voiced reddit stories that feel ubiquitous on social media, intended to induce a vicarious “flow state” in the viewer to maintain attention",
     },
     {
       imageURL: bedWars,
       caption: null,
-      text: "User-created game-servers in which people play structured games, like the capture-the-flag style “bed wars.” Like Roblox, Minecraft also functions as a game engine that allows community members to create games for others to play, with a relatively low-barrier to entry. ",
+      text: "User-created game-servers in which people play structured games, like the capture-the-flag style “bed wars.” Like Roblox, Minecraft also functions as a game engine that allows community members to create games for others to play, with a relatively low-barrier to entry.",
     },
     {
       imageURL: threeBody,
       caption: null,
-      text: "Animations and other scripted works, like this fan-made adaptation of the entirety of Liu Cixin’s 3 body problem.",
+      text: "Animations and other scripted works, like this fan-made adaptation of the entirety of Liu Cixin’s The Three-Body Problem.",
     },
     {
       imageURL: youtubers,
       caption: null,
-      text: "And many, many youtube communities of vloggers and streamers. Youtube is probably the largest platform for Minecraft content. In 2014, ‘minecraft’ was the second most searched term in youtube, the first being ‘music’. In 2023, this fell down to 12th place, below ‘asmr’, ‘mr.beast’, skibidi toilet, etc. but above ‘taylor swift’, ‘andrew tate’, and ‘ukraine.’",
+      text: "And many, many youtube communities of vloggers and streamers. Youtube is probably the largest platform for Minecraft content. In 2014, “minecraft” was the second most searched term in youtube, the first being “music.” In 2023, this fell down to 12th place, below “asmr,” “mr.beast,” “skibidi toilet,” etc., but above “taylor swift,” “andrew tate,” and “ukraine.”",
     },
     {
       imageURL: enchanting,
       caption: null,
-      text: "A  huge part of “playing Minecraft” is the ‘metagaming’ of interacting with the online community, especially because it does nothing to orient players on how they should interact with the software. There is no tutorial. One has to rely on trial and error, assumptions carried from other video games, and searching for information online.",
+      text: "A huge part of “playing Minecraft” is the “metagaming” of interacting with the online community, especially because it does nothing to orient players on how they should interact with the software. There is no tutorial. One has to rely on trial and error, assumptions carried from other video games, and searching for information online.",
     },
     {
       imageURL: crafting,
       caption: null,
-      text: "The writer Robin Sloan calls Minecraft ‘a game about secret knowledge’, and ‘A generative, networked system laced throughout with secrets.” and describes the process of learning how to craft as working with ‘arcane runes’ and ‘secret recipes’ that need to be learned about outside the game.",
+      text: "The writer Robin Sloan calls Minecraft “a game about secret knowledge,” and “A generative, networked system laced throughout with secrets.” and describes the process of learning how to craft as working with “arcane runes” and “secret recipes” that need to be learned about outside the game.",
     },
     {
       imageURL: bridges,
@@ -479,7 +484,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: roofs,
       caption: null,
-      text: "To extend that even further, what if I said that there is  no virtual, it’s all part of reality?  Or  that there is no artifice — it's all part of nature? Or, even more broadly, that there is no outside — it's all part of some interior?",
+      text: "To extend that even further, what if I said that there is no virtual, it’s all part of reality? Or that there is no artifice—it’s all part of nature? Or, even more broadly, that there is no outside—it’s all part of some interior?",
     },
     {
       imageURL: diagram1b,
@@ -501,12 +506,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: pond,
       caption: null,
-      text: "Throughout the history of art and literature, landscape has always been a metaphor for inner life. Certainly, there is an argument to be made for a transcendentalist reading of Minecraft — however transcendentalists would have probably been quick to point out the difference between nature and its representations. ",
+      text: "Throughout the history of art and literature, landscape has always been a metaphor for inner life. Certainly, there is an argument to be made for a transcendentalist reading of Minecraft—however transcendentalists would have probably been quick to point out the difference between nature and its representations.",
     },
     {
       imageURL: pond,
       caption: null,
-      text: "Ralph Waldo Emerson writes in Nature about the connection between joy, reason, and time spent in nature, decrying everything else that comes in between. Emerson asks, “Why should not we also enjoy an original relation to the universe?” To which I might respond, what makes a relation with media not an original relation to the universe?",
+      text: "Ralph Waldo Emerson writes in Nature about the connection between joy, reason, and time spent in nature, decrying everything else that comes in between. Emerson asks, “Why should not we also enjoy an original relation to the universe?” To which I might respond, “what makes a relation with media not an original relation to the universe?”",
     },
     {
       imageURL: mingPainting1,
@@ -521,7 +526,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: scholarRock,
       caption: null,
-      text: "A similar dynamic might be said of Chinese scholar’s rocks,  somewhat in between sculptural representation and natural specimen proper, which were also meant to be contemplative objects—the mind wanders in and around the scholar’s rock’s intricate  nooks and crannies.",
+      text: "A similar dynamic might be said of Chinese scholar’s rocks, somewhat in between sculptural representation and natural specimen proper, which were also meant to be contemplative objects—the mind wanders in and around the scholar’s rock’s intricate nooks and crannies.",
     },
     {
       imageURL: scholarRock,
@@ -541,12 +546,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mingPainting2,
       caption: null,
-      text: "There’s a certain teleology associated with the practice of viewing Chinese landscape paintings, which involves the merging of the beholder’s human body with that of a purported broader cosmic body, thereby also giving interiority to the physical world – including landscape. Access to this space, or, “entering the mountains,” allowed for a momentary yet reproducible experience of transcendence.",
+      text: "There’s a certain teleology associated with the practice of viewing Chinese landscape paintings, which involves the merging of the beholder’s human body with that of a purported broader cosmic body, thereby also giving interiority to the physical world–including landscape. Access to this space, or, “entering the mountains,” allowed for a momentary yet reproducible experience of transcendence.",
     },
     {
       imageURL: redBook,
-      caption: null,
-      text: "This sounds a lot like Carl Jung’s ‘active imagination’, a technique he developed to explore his unconscious through dreams and visions, as extensively documented in Jung’s Red Book. ‘’Active Imagination’ is a process of consciously engaging with one unconscious and its manifold characters and symbols, entering a sort of ‘imaginal realm’, or ‘mundus imaginalis,’ as philosopher Henry Corbin calls it. There is an actual ‘place-ness’ at work here, and I’m speaking in a manner that’s a bit more real than metaphor.",
+      caption: "Spreads from Carl Jung’s Red Book",
+      text: "This sounds a lot like Carl Jung’s “active imagination,” a technique he developed to explore his unconscious through dreams and visions, as extensively documented in Jung’s Red Book. “Active imagination” is a process of consciously engaging with one unconscious and its manifold characters and symbols, entering a sort of “imaginal realm,” or “mundus imaginalis,” as philosopher Henry Corbin calls it. There is an actual “place-ness” at work here, and I’m speaking in a manner that’s a bit more real than metaphor.",
       multiply: true,
     },
     {
@@ -557,43 +562,43 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mundusImaginalis,
       caption: null,
-      text: "This is what Corbin means by ‘topographical inversion’: at some point when we delve so deep in our interiority, we find ourselves in some sort of 'outside place.'",
+      text: "This is what Corbin means by “topographical inversion:” at some point when we delve so deep in our interiority, we find ourselves in some sort of outside place.",
     },
     {
       imageURL: redBookMisc,
-      caption: null,
+      caption: "Illustration from Carl Jung’s Red Book",
       text: "There’s a distinction to be made between “imaginal” and “imaginary.”",
     },
     {
       imageURL: redBookMisc,
-      caption: null,
-      text: "“Imaginary” refers to consciously making stuff up",
+      caption: "Illustration from Carl Jung’s Red Book",
+      text: "“Imaginary” refers to consciously making stuff up.",
     },
     {
       imageURL: redBookMisc,
-      caption: null,
-      text: "“Imaginal” has more to do with the word “image” rather than “imagination”, and refers to images that ‘comes through to us’ from the unconscious, like what happens during Jung's active imagination process, and in dreams, and in hypnagogic states.",
+      caption: "Illustration from Carl Jung’s Red Book",
+      text: "“Imaginal” has more to do with the word “image” rather than “imagination”, and refers to images that “comes through to us” from the unconscious, like what happens during Jung’s active imagination process, and in dreams, and in hypnagogic states.",
     },
     {
       imageURL: torus,
       caption: null,
-      text: "Video game worlds are both ‘imaginary’ and ‘imaginal’. Various new media scholars have also made the analog between video games and dreams.",
+      text: "Video game worlds are both imaginary and imaginal. Various new media scholars have also made the analog between video games and dreams.",
     },
     {
       imageURL: collectiveUnconscious,
-      caption: null,
+      caption: "Illustration from Carl Jung’s Red Book",
       text: "One such scholar, Matthew Horrigan, writes that “dreams, digital games, and the imagination all involve imaginary worlds, with digital games intersubjectively distributing the practice of imagination by means of audiovisual signifiers and interaction patterns.” That sounds a lot like the collective unconscious to me. Beyond interactivity, what a video game promises is not just rendered image and sound, not just narrative, not even just the joy of play, but inhabitation of an imaginary and imaginal realm that is shared with others.",
       multiply: true,
     },
     {
       imageURL: sohravardi,
       caption: null,
-      text: "Corbin traces the idea of the ‘imaginal realm’ to the ideas of Sohravardi, a notable 12th century Persian philosopher who describes a place that he calls “Na-Koja-Abad” literally ‘no-where-land’, a “realm of suspended images,”  that is not geographically locatable but is yet ontologically ‘real’.",
+      text: "Corbin traces the idea of the imaginal realm to the ideas of Sohravardi, a notable 12th century Persian philosopher who describes a place that he calls “Na-Koja-Abad”—literally “no-where-land”—a “realm of suspended images”  that is not geographically locatable but is yet ontologically “real.”",
     },
     {
       imageURL: zoomedOutMulti,
       caption: null,
-      text: "I’d like to posit Minecraft as a “no-where:” a place that one can’t actually physically enter, and yet exists nonetheless. a place that has very little history or myth built in, but in which the player creates lore just by inhabiting it. in a randomly generated landscape that is essentially homogeneous from a zoomed out view, in this place outside of ‘where’, it is up to the player to construct the ‘where’, to build and recognize landmarks and places with meaning to the player through exploration of the world.",
+      text: "I’d like to posit Minecraft as a “no-where:” a virtual place that one can’t actually physically enter, and yet exists nonetheless. A place that has very little history or myth built in, but in which the player creates their own lore. In a randomly generated landscape that is essentially homogeneous from a zoomed out view, in this place outside of “where,” it is up to the player to construct the “where,” to build and recognize landmarks and places with meaning to the player through exploration of the world.",
     },
     {
       imageURL: diagram1a,
@@ -605,12 +610,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: liminal,
       caption: null,
-      text: "The construction of a ‘place outside of place’ segues very neatly into what Jung has written about “liminal space.” The concept of liminality was originally used in anthropology to refer to a transitory stage during a rite of passage, in which one has left one state of being  but has yet to reach the next. In psychotherapy, a liminal space is a space in which a transformation occurs. In that sense, Jung describes the therapist's office as a liminal space.",
+      text: "The construction of a “place outside of place” segues very neatly into what Jung has written about “liminal space.” The concept of liminality was originally used in anthropology to refer to a transitory stage during a rite of passage, in which one has left one state of being but has yet to reach the next. In psychotherapy, a liminal space is a space in which a transformation occurs. In that sense, Jung describes the therapist’s office as a liminal space.",
     },
     {
       imageURL: magicCircle,
       caption: null,
-      text: "Other psychologists note something similar. The psychologist Carl Rogers describes the 'out-of-this-world' quality of a therapeutic session, a sort of “trance-like feeling in the relationship that client and therapist emerge from at the end of the hour, as if from a deep well or tunnel.” Marion Milner describes it as “a temporal-spatial frame also marks off the special kind of reality of a psychoanalytic session.” Jung himself describes it as “a magic circle […] in which the transformation inherent in the patient’s condition would be allowed to take place.”",
+      text: "Other psychologists note something similar. The psychologist Carl Rogers describes the “out-of-this-world” quality of a therapeutic session, a sort of “trance-like feeling in the relationship that client and therapist emerge from at the end of the hour, as if from a deep well or tunnel.” Marion Milner describes it as “a temporal-spatial frame also marks off the special kind of reality of a psychoanalytic session.” Jung himself describes it as “a magic circle […] in which the transformation inherent in the patient’s condition would be allowed to take place.”",
     },
     {
       imageURL: gameMagicCircle,
@@ -620,12 +625,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: crush,
       caption: null,
-      text: "If Minecraft is one of these liminal spaces, “a place outside of place, a time outside of time”, then what is the transformation that is being allowed to happen? What Minecraft enables is, of course, not specifically a therapeutic breakthrough, but something similar between the ego and the unconscious, in a space that allows for free enactment of creation and destruction— a server of one’s own, as Virgina Woolf might call it if she had played Minecraft.",
+      text: "If Minecraft is one of these liminal spaces, “a place outside of place, a time outside of time,” then what is the transformation that is being allowed to happen? What Minecraft enables is, of course, not specifically a therapeutic breakthrough, but something similar between the ego and the unconscious, in a space that allows for free enactment of creation and destruction— a server of one’s own, as Virgina Woolf might call it if she had played Minecraft.",
     },
     {
       imageURL: convo,
       caption: null,
-      text: "Minecraft also transforms the space between players and other people, creating an environment in which friends feel more free to have deeper conversations, similar to the atmosphere of sitting with a friend around a campfire at night, or on a long train ride (another liminal space). ",
+      text: "Minecraft also transforms the space between players and other people, creating an environment in which friends feel more free to have deeper conversations, similar to the atmosphere of sitting with a friend around a campfire at night, or on a long train ride (another liminal space).",
     },
     {
       imageURL: ex,
@@ -635,12 +640,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: lostWorldComment,
       caption: null,
-      text: "This is why ‘losing one’s world’ is a huge point of grief.",
+      text: "This is why “losing one’s world” is a huge point of grief.",
     },
     {
       imageURL: twoWeekPhase,
       caption: null,
-      text: "Minecraft is the locus of so much nostalgia for people, that it’s crystalized in the trope of the ‘two week Minecraft phase’. The trope describes the phenomena of how people who grew up with the game occasionally get the urge to pick it back up, yet inevitably quickly abandon it again.",
+      text: "Minecraft is the locus of so much nostalgia for people, that it’s crystalized in the trope of the “two week Minecraft phase.” The trope describes the phenomena of how people who grew up with the game occasionally get the urge to pick it back up, yet inevitably quickly abandon it again.",
     },
     {
       imageURL: twoWeekGif,
@@ -672,17 +677,17 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: misc3,
       caption: null,
-      text: "The answer probably lies in both. For example, part of the pleasure of playing with others in Minecraft is precisely in the “numbers game” of dividing up labor to find, harvest, and build more efficiently.  The randomness and procedural generation in Minecraft scaffolds both single and multiplayer experiences and in fact provide the drive for much of its social aspects.",
+      text: "The answer probably lies in both. For example, part of the pleasure of playing with others in Minecraft is precisely in the “numbers game” of dividing up labor to find, harvest, and build more efficiently. The randomness and procedural generation in Minecraft scaffolds both single and multiplayer experiences and in fact provide the drive for much of its social aspects.",
     },
     {
       imageURL: jungEgg,
-      caption: null,
-      text: "One of Jung's foundational precepts is about “holding the tension of the opposites”— learning how to make space for seemingly diametrically-opposed ideas or perspectives.",
+      caption: "Illustration from Carl Jung’s Red Book",
+      text: "One of Jung’s foundational precepts is about “holding the tension of the opposites”—learning how to make space for seemingly diametrically-opposed ideas or perspectives.",
     },
     {
       imageURL: farming,
       caption: null,
-      text: "Minecraft holds a certain tension between its  systematic mathematical side, and its emotional creative side. Some players dive deep into the technical mechanics of the game, learning how to create the most yield-optimal crop and livestock  farms, for example. Others are more interested in role-playing detailed narratives.",
+      text: "Minecraft holds a certain tension between its systematic mathematical side, and its emotional creative side. Some players dive deep into the technical mechanics of the game, learning how to create the most yield-optimal crop and livestock farms, for example. Others are more interested in role-playing detailed narratives.",
     },
     {
       imageURL: operas,
@@ -692,27 +697,27 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: oulipo,
       caption: null,
-      text: "In that sense, video games are reminiscent of Oulipo, that french literature movement from the 60s that championed constrained writing. Christian Bök writes that, for Oulipo, “to compose poetry is to undertake a mathematical analysis of language itself.” ",
+      text: "In that sense, video games are reminiscent of Oulipo, that french literature movement from the 60s that championed constrained writing. Christian Bök writes that, for Oulipo, “to compose poetry is to undertake a mathematical analysis of language itself.”",
     },
     {
       imageURL: americanFootball,
       caption: null,
-      text: "Minecraft can be seen as a vocabulary and grammar that people use to create so many things that exist both within and without the game. For Oulipo, both the rules of a piece of constrained writing as well as the author’s choices act as co-authors for the text.  For Minecraft, the ‘game’ does not solely come from the procedural structure of the game, but also from the player’s activation of the software, which could be affected by any number of external circumstances, perspectives, and attitudes that the player may hold. ",
+      text: "Minecraft can be seen as a vocabulary and grammar that people use to create so many things that exist both within and without the game. For Oulipo, both the rules of a piece of constrained writing as well as the author’s choices act as co-authors for the text. For Minecraft, the ‘game’ does not solely come from the procedural structure of the game, but also from the player’s activation of the software, which could be affected by any number of external circumstances, perspectives, and attitudes that the player may hold.",
     },
     {
       imageURL: industrial,
       caption: null,
-      text: "Simulations of nature are ways to imagine alternate relations with nature. Often, these computational simulations can easily be read as fantasies of capitalist frontier expansionism, enabled by the reduced material constraints of the digital. ",
+      text: "Simulations of nature are ways to imagine alternate relations with nature. Often, these computational simulations can easily be read as fantasies of capitalist frontier expansionism, enabled by the reduced material constraints of the digital.",
     },
     {
       imageURL: misc2,
       caption: null,
-      text: "But within Minecraft, player and game share “a subtle copresence.” The 'numbers game'  combines with ecological aesthetics, atmospheric music, and the player’s own choices, to create a digital ecology that points to both “the embeddedness of the human in an environmental system as well as their irrelevance to its mundane operations.” There are processes in Minecraft that go on without user interaction, but the user is also able to interact with every element in the game. In writing about games that strive to model ecological principles, media theorist Alenda Chang observes that one fundamental mistake video game designers make is that they relegate environments to the background. But everything in Minecraft is interactable — that's the whole point—the environment is entirely foregrounded.",
+      text: "But within Minecraft, player and game share “a subtle copresence.” The “numbers game”  combines with ecological aesthetics, atmospheric music, and the player’s own choices, to create a digital ecology that points to both “the embeddedness of the human in an environmental system as well as their irrelevance to its mundane operations.” There are processes in Minecraft that go on without user interaction, but the user is also able to interact with every element in the game. In writing about games that strive to model ecological principles, media theorist Alenda Chang observes that one fundamental mistake video game designers make is that they relegate environments to the background. But everything in Minecraft is interactable — that’s the whole point—the environment is entirely foregrounded.",
     },
     {
       imageURL: sheep,
       caption: null,
-      text: "While colonial frontier archetypes are absolutely present in Minecraft, the game also offers many more options for alternative relations. The beauty of the game comes from the emptiness of its  terrains, dotted with only a few sentient creatures and no industrial communities. There is plenty of space, literally and figuratively, for coexisting with the natural world rather than conquering it.",
+      text: "While colonial frontier archetypes are absolutely present in Minecraft, the game also offers many more options for alternative relations. The beauty of the game comes from the emptiness of its terrains, dotted with only a few sentient creatures and no industrial communities. There is plenty of space, literally and figuratively, for coexisting with the natural world rather than conquering it.",
     },
     {
       imageURL: sheep,
@@ -722,12 +727,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: froebel1,
       caption: null,
-      text: "This is another kind of block-based ‘Gift’. Friedrich Froebel,  often called the inventor of kindergarten, developed block-based toys called Fröbelgaben (literally “Froebel gifts”) that he claimed would illustrate the “spiritual connectedness of all things.” Children would start with simple blocks, build up to more complex patterns, then begin to see these patterns in the world around them, and see the connection between human life and life in nature.",
+      text: "This is another kind of block-based “gift.” Friedrich Fröbel, a German pedagogue often called the inventor of kindergarten, developed block-based toys called Fröbelgaben (literally Fröbel gifts”) that he claimed would illustrate the “spiritual connectedness of all things.” Children would start with simple blocks, build up to more complex patterns, then begin to see these patterns in the world around them, and see the connection between human life and life in nature.",
     },
     {
       imageURL: froebel2,
       caption: null,
-      text: "Many modernist architects were exposed as children to Fröbel's ideas about geometry, including Frank Lloyd Wright, Le Corbusier, and Buckminster Fuller.",
+      text: "Many modernist architects were exposed as children to Fröbel’s ideas about geometry, including Frank Lloyd Wright, Le Corbusier, and Buckminster Fuller.",
     },
     {
       imageURL: froebel2,
@@ -752,12 +757,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: fallingwater,
       caption: null,
-      text: "If Wright played Minecraft, he would definitely be one of those people that start seeing everything IRL as made of blocks.",
+      text: "If Wright played Minecraft, he’d definitely be one of those people that start seeing everything IRL as made of blocks.",
     },
     {
       imageURL: woodenTools,
       caption: null,
-      text: "It’s significant, also, that Froebel blocks are made of wood, because wooden toys have a long association with timelessness, quality, and craftsmanship, especially within Scandinavia (remember Mojang’s Swedish origins).  In Minecraft, wood is one of the first resources new players can gather, and allows them to build tools that can harvest other materials.",
+      text: "It’s significant, also, that Froebel blocks are made of wood, because wooden toys have a long association with timelessness, quality, and craftsmanship, especially within Scandinavia (remember Mojang’s Swedish origins). In Minecraft, wood is one of the first resources new players can gather, and allows them to build tools that can harvest other materials.",
     },
     {
       imageURL: dogs,
@@ -772,7 +777,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: peters,
       caption: null,
-      text: "I always find myself returning to the writing of media theorist  John Durham Peters, who frames media as something ecological and existential:",
+      text: "I always find myself returning to the writing of media theorist John Durham Peters, who frames media as something ecological and existential:",
     },
     {
       imageURL: flowers,
@@ -782,12 +787,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: flowers,
       caption: null,
-      text: "All media offers us a  magic circle,  'a space outside of space, and a time outside of time'",
+      text: "All media offers us a magic circle, a space outside of space, and a time outside of time",
     },
     {
       imageURL: flowers,
       caption: null,
-      text: " I want to posit artifice as the most natural thing to human beings. The greatest gift of being human is that we have the ability to make media—artifacts of not just information, but also of play, art, emotion, profundity. It’s a gift that we are able to bring interiority ‘outward’ and imbue artifacts with meaning.",
+      text: "I want to posit artifice as the most natural thing to human beings. The greatest gift of being human is that we have the ability to make media: artifacts of not just information, but also of play, art, emotion, profundity. It’s a gift that we are able to bring interiority outward and imbue artifacts with meaning.",
     },
     {
       imageURL: flowers,
@@ -803,7 +808,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: diagram2,
       caption: null,
-      text: "At this point we’ve explored the relationship between these three domains from a couple of different vantage points. For this last section, I want to offer a somewhat rudimentary archetypal analysis of Minecraft. In other words, what can Minecraft teach us about being human?",
+      text: "At this point we’ve explored the relationship between these three domains from a couple of different vantage points. For this last section, I want to offer a somewhat rudimentary archetypal analysis of Minecraft. In other words, what can Minecraft teach us about being and becoming human?",
     },
     {
       imageURL: null,
@@ -813,7 +818,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: tnt,
       caption: null,
-      text: "Generally, Minecraft holds the tension of opposing desires to create and to destroy, as player conflicts lead to ‘griefing’ ( intentionally destroying other people’s creations), as new goals necessitate the destruction of old structures, as exploration demands the abandonment of old basecamps. Playing the game reflects the very rhythms of life: birth, death, and rebirth.",
+      text: "Generally, Minecraft holds the tension of opposing desires to create and to destroy, as player conflicts lead to “griefing” (intentionally destroying other people’s creations), as new goals necessitate the destruction of old structures, as exploration demands the abandonment of old basecamps. Playing the game reflects the very rhythms of life: birth, death, and rebirth.",
     },
     {
       imageURL: null,
@@ -833,7 +838,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: misc1,
       caption: null,
-      text: "A world entails a cosmology (how and why the world is). In the beginning was the random seed, from which the universe was born of predetermined functions like Brownian motion and Perlin noise. It’s actually quite an apt metaphor for the fact that every individual’s psychic landscape is ‘unique’ but subject to the same underlying processes and structures.",
+      text: "A world entails a cosmology (how and why the world is). In the beginning was the random seed, from which the universe was born of predetermined functions like Brownian motion and Perlin noise. It’s actually quite an apt metaphor for the fact that every individual’s psychic landscape is unique but subject to the same underlying processes and structures.",
     },
     {
       imageURL: fogOfWar,
@@ -858,12 +863,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: recipes,
       caption: null,
-      text: "Jung writes extensively about alchemy as a metaphor for internal transformation. Crafting within Minecraft essentially functions like alchemy—through specific recipes, players can turn  base materials into more valuable ones.",
+      text: "Jung writes extensively about alchemy as a metaphor for internal transformation. Crafting within Minecraft essentially functions like alchemy—through specific recipes, players can turn base materials into more valuable ones.",
     },
     {
       imageURL: sun,
       caption: null,
-      text: "“Squaring the Circle”, a concept in alchemy that represents the transfiguration of the spiritual (the circle) into the physical (the square), takes on new meaning in Minecraft when one realizes that even the sun in the sky is a square.",
+      text: "“Squaring the Circle,” a concept in alchemy that represents the transfiguration of the spiritual (the circle) into the physical (the square), takes on new meaning in Minecraft when one realizes that even the sun in the sky is a square.",
       multiply: true
     },
     {
@@ -879,12 +884,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: cozy,
       caption: null,
-      text: "A tether fantasy is “the pleasurable process of oscillating between feeling safe and feeling exposed, dwelling on the boundaries that separate the two,” while accretions are about the “pleasurable process of correcting a weak or vulnerable body by accruing objects from the world of gameplay”. In Minecraft, the home base is built out of accrued materials, and is known, mapped, and bounded by artificial walls or fences. Most importantly, it is well lit.",
+      text: "A tether fantasy is “the pleasurable process of oscillating between feeling safe and feeling exposed, dwelling on the boundaries that separate the two,” while accretions are about the “pleasurable process of correcting a weak or vulnerable body by accruing objects from the world of gameplay.” In Minecraft, the home base is built out of accrued materials, and is known, mapped, and bounded by artificial walls or fences. Most importantly, it is well lit.",
     },
     {
       imageURL: artificialLight,
       caption: null,
-      text: "Artificial light is actually an important signal of psychological safety. Goetz writes, … home base comes to rely on artificial, internal lighting like torches or a burning oven. If players are caught outside after sunset, they might spot torchlight through those same home-base windows as they scurry back to safety.",
+      text: "Artificial light actually becomes an important signal of psychological safety. Goetz writes,  “home base comes to rely on artificial, internal lighting like torches or a burning oven. If players are caught outside after sunset, they might spot torchlight through those same home-base windows as they scurry back to safety.”",
     },
     {
       imageURL: null,
@@ -894,7 +899,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mining,
       caption: null,
-      text: "Many materials need to be mined underground. The image of the underground is always archetypally linked to the unconscious. Following that, perhaps the ore you find represents the nuggets of insights that might be found down there, that have to be brought back to be integrated and put to use on the surface, all the while avoiding monsters, lava, and flooding. In contrast, the conscious surface is constantly changing and growing, and is extremely receptive—remove a couple of layers of dirt and grass will grow on top to form a new surface, as previously underground dirt is exposed to air.  And then there is the preconscious twilight and night, when the monsters from the unconscious slip up to the surface and terrify us.",
+      text: "Many materials need to be mined underground. The image of the underground is always archetypally linked to the unconscious. Following that, perhaps the ore you find represents the nuggets of insights that might be found down there, that have to be brought back to be integrated and put to use on the surface, all the while avoiding monsters, lava, and flooding. In contrast, the conscious surface is constantly changing and growing, and is extremely receptive—remove a couple of layers of dirt and grass will grow on top to form a new surface, as previously underground dirt is exposed to air. And then there is the preconscious twilight and night, when the monsters from the unconscious slip up to the surface and terrify us.",
     },
     {
       imageURL: null,
@@ -909,12 +914,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: herobrineIsometric,
       caption: null,
-      text: "Despite the fact that Herobrine has never actually existed in the game (without mods), he has become a central figure in the Minecraft canon and has captured the imagination of millions. ",
+      text: "Despite the fact that Herobrine has never actually existed in the game (without mods), he has become a central figure in the Minecraft canon and has captured the imagination of millions.",
     },
     {
       imageURL: herobrineSteve,
       caption: null,
-      text: "Herobrine represents the archetype of the Shadow — all the things about ourselves that we try to repress, that don’t align with our ideal image of the self.  Herobrine allegedly has the power to create unnatural constructions and will stalk the player from afar. You cannot run from the shadow. The fact that Steve and Herobrine share the same appearance suggests a 'splitting' that might be resolved with the integration of the shadow.",
+      text: "Herobrine represents the archetype of the Shadow—all the things about ourselves that we try to repress, that don’t align with our ideal image of the self. Herobrine allegedly has the power to create unnatural constructions and will stalk the player from afar. You cannot run from the shadow. The fact that Steve and Herobrine share the same appearance suggests a “splitting” that might be resolved with the integration of the shadow.",
     },
     {
       imageURL: null,
@@ -928,23 +933,23 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: slain,
-      caption: null,
+      caption: "Illustration from Carl Jung’s Red Book",
       text: "The End is where the hero archetype can most saliently be played out.",
     },
     {
       imageURL: dragonRedBook,
-      caption: null,
+      caption: "Illustration from Carl Jung’s Red Book",
       text: "It is here that the player must defeat the Enderdragon, the archetypal monster to be confronted in the heart of the underworld.",
     },
     {
       imageURL: killingEnderdragon,
       caption: null,
-      text: "However, this is a somewhat arbitrary ‘ending’ that’s more meant to satisfy the desire for a concrete goal, a cheeky response to the question “how do you ‘win’ Minecraft?” The End is not actually the end—actually,  individuation turns out to be a constant process.",
+      text: "However, this is a somewhat arbitrary “ending” that’s more meant to satisfy the desire for a concrete goal, a cheeky response to the question “how do you ‘win’ Minecraft?” The End is not actually the end—actually, individuation turns out to be a constant, life-long process.",
     },
     {
       imageURL: egg,
       caption: null,
-      text: "After the Enderdragon is slain, it drops an egg —a classic symbol of rebirth. Then, the player is presented with the End Poem, and sent back to the Overworld. From that point on, they can continue playing Minecraft as usual.",
+      text: "After the Enderdragon is slain, it drops an egg—a classic symbol of rebirth. Then, the player is presented with the End Poem, and sent back to the Overworld. From that point on, they can continue playing Minecraft as usual.",
     },
     {
       imageURL: null,
@@ -959,22 +964,22 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: endPoemText2,
-      caption: null,
-      text: "The End Poem was written by Julian Gough, who was friends with Notch (the creator of Minecraft) at the time. The poem was technically not acquired by Microsoft back in 2014, and was made public domain by Gough in 2022.",
+      caption: "The End Poem",
+      text: "The End Poem was written by Julian Gough, who was friends with Notch (the creator of Minecraft) at the time. The poem was technically never acquired by Microsoft, and was made public domain by Gough in 2022.",
     },
     {
       imageURL: treeRedBook2,
-      caption: null,
-      text: "The conceit of the poem is that two god-like entities are speaking about the player—the real player, not Steve the avatar. They are aware that the player, who is now transcended into a higher plane after defeating the enderdragon, is reading the poem. They directly compare Minecraft to ‘a dream’—making a distinction between ‘the long dream of life,‘ and ‘the short dream of a game.’ To these two entities, words are an ‘interface,’ just like the interface of the game screen. In fact, they call ‘dreams’ the original interface. “A million years old, and it still works”",
+      caption: "Illustration from Carl Jung’s Red Book",
+      text: "The conceit of the poem is that two god-like entities are speaking about the player—the real player, not Steve the avatar. They are aware that the player, who has now transcended into a higher plane after defeating the enderdragon, is reading the poem. They directly compare Minecraft to a dream, while making a distinction between “the long dream of life,” and “the short dream of a game.” To these two entities, words are an “interface,” just like the interface of the game screen. In fact, they call “dreams” the original interface. “A million years old, and it still works.”",
     },
     {
       imageURL: endPoemText,
-      caption: null,
+      caption: "The End Poem",
       text: "The two beings make deeply archetypal references:",
     },
     {
       imageURL: endPoemText,
-      caption: null,
+      caption: "The End Poem",
       text: "“Who are we?",
     },
     {
@@ -1054,43 +1059,43 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: endPoemText,
-      caption: null,
+      caption: "The End Poem",
       text: "We do not change.”",
     },
     {
       imageURL: endPoemText,
-      caption: null,
+      caption: "The End Poem",
       text: "“We are the universe. We are everything you think isn’t you. You are looking at us now, through your skin and your eyes. And why does the universe touch your skin, and throw light on you? To see you, player. To know you. And to be known. I shall tell you a story.”",
     },
     {
       imageURL: collectiveUnconscious,
-      caption: null,
+      caption: "Illustration from Carl Jung’s Red Book",
       text: "The two beings are embodiments of the universe, the anima mundi, the collective unconscious, speaking to the player in the form of distinct archetypal entities, essentially mirroring Jung’s own journey into mundus imaginalis. Minecraft is our individual and collective Red Book.",
     },
     {
       imageURL: treeOfLife,
       caption: null,
-      text: "Overall, the poem has an ‘everything is everything’ kind of ethos that emphasizes the structural similarities of the microcosm and the macrocosm, of the game, the player, and the universe. The whole thing feels like a Terrence Malick movie. The two beings urge the player to see the interconnectedness of all things from atoms to forests to stories to stars, and to live life in meatspace just as voraciously as the player has lived in cubespace.",
+      text: "Overall, the poem has an “everything is everything” kind of ethos that emphasizes the structural similarities of the microcosm and the macrocosm, of the game, the player, and the universe. The whole thing feels like a Terrence Malick movie. The two beings urge the player to see the interconnectedness of all things from atoms to forests to stories to stars, and to live life in meatspace just as voraciously as the player has lived in cubespace.",
     },
     {
       imageURL: wakeUp,
-      caption: null,
+      caption: "The End Poem",
       text: "At the end, it asks the player to wake up. But it's unclear if that means waking up to the Overworld, or waking up to our world.",
     },
     {
       imageURL: wakeUp,
-      caption: null,
+      caption: "The End Poem",
       text: "Gough says about the End Poem,",
     },
     {
       imageURL: treeRedBook1,
-      caption: null,
+      caption: "Illustration from Carl Jung’s Red Book",
       text: "“I love the strangeness that comes when people get so lost in a game that the game becomes the world. Because you do get lost like that. Especially in something like Minecraft, that's so endless. You're actually startled to come back into your life at the end of it. So I wanted to play with that moment, where you're between two worlds, and for a short little period you're not sure which one is more real.”",
     },
     {
       imageURL: treeOfLife2,
       caption: null,
-      text: "In both the game and in life, we feel the vastness of that which exists outside of the contours of the self, and the vastness of that which exists inside.",
+      text: "In the short dream of a game and in the long dream of life, we feel the vastness of that which exists outside of the contours of the self, and the vastness of that which exists inside.",
     },
     {
       imageURL: treeOfLife2,
