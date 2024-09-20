@@ -479,7 +479,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: bridges,
       caption: null,
-      text: "The Minecraft Wiki, YouTube guides, modding, etc., represent not only a community and a repository of knowledge but also alternative “readings” of the game software. Minecraft, like works of literature, has a much more expansive domain than is conventionally understood. Put more simply, we can take Derrida’s famous dictum that “there is nothing outside of the text” and say that there is no metagame. It's all part of the game.",
+      text: "The Minecraft Wiki, YouTube guides, modding, etc., represent not only a community and a repository of knowledge but also alternative “readings” of the game software. Minecraft, like works of literature, has a much more expansive domain than is conventionally understood.",
+    },
+    {
+      imageURL: bridges,
+      caption: null,
+      text: "Put more simply, we can take Derrida’s famous dictum that “there is nothing outside of the text” and say that there is no metagame. It's all part of the game.",
     },
     {
       imageURL: roofs,
@@ -546,12 +551,29 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mingPainting2,
       caption: "The Thatched Hut of Dreaming of an Immortal, Tang Yin, Ming dynasty, late 15th to early 16th century",
-      text: "There’s a certain teleology associated with the practice of viewing Chinese landscape paintings, which involves the merging of the beholder’s human body with that of a purported broader cosmic body, thereby also giving interiority to the physical world–including landscape. Access to this space, or, “entering the mountains,” allowed for a momentary yet reproducible experience of transcendence.",
+      text: "There’s a certain teleology associated with the practice of viewing Chinese landscape paintings, which involves the merging of the beholder’s human body with that of a purported broader cosmic body, thereby also giving interiority to the physical world–including landscape.",
+    },
+    {
+      imageURL: mingPainting2,
+      caption: "The Thatched Hut of Dreaming of an Immortal, Tang Yin, Ming dynasty, late 15th to early 16th century",
+      text: "Access to this space, or, “entering the mountains,” allowed for a momentary yet reproducible experience of transcendence.",
     },
     {
       imageURL: redBook,
       caption: "Spreads from Carl Jung’s Red Book",
-      text: "This sounds a lot like Carl Jung’s “active imagination,” a technique he developed to explore his unconscious through dreams and visions, as extensively documented in Jung’s Red Book. “Active imagination” is a process of consciously engaging with one unconscious and its manifold characters and symbols, entering a sort of “imaginal realm,” or “mundus imaginalis,” as philosopher Henry Corbin calls it. There is an actual “place-ness” at work here, and I’m speaking in a manner that’s a bit more real than metaphor.",
+      text: "This sounds a lot like Carl Jung’s “active imagination,” a technique he developed to explore his unconscious through dreams and visions, as extensively documented in Jung’s Red Book.",
+      multiply: true,
+    },
+    {
+      imageURL: redBook,
+      caption: "Spreads from Carl Jung’s Red Book",
+      text: "“Active imagination” is a process of consciously engaging with one unconscious and its manifold characters and symbols, entering a sort of “imaginal realm,” or “mundus imaginalis,” as philosopher Henry Corbin calls it.",
+      multiply: true,
+    },
+    {
+      imageURL: redBook,
+      caption: "Spreads from Carl Jung’s Red Book",
+      text: "There is an actual “place-ness” at work here, and I’m speaking in a manner that’s a bit more real than metaphor.",
       multiply: true,
     },
     {
@@ -577,7 +599,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: redBookMisc,
       caption: "Illustration from Carl Jung’s Red Book",
-      text: "“Imaginal” has more to do with the word “image” rather than “imagination”, and refers to images that “comes through to us” from the unconscious, not “in the mind's eye,” but in an actual sensory way, like what happens during Jung’s active imagination process, and in dreams, and in hypnagogic states.",
+      text: "“Imaginal” has more to do with the word “image” rather than “imagination”, and refers to images that “comes through to us” from the unconscious.",
+    },
+    {
+      imageURL: redBookMisc,
+      caption: "Illustration from Carl Jung’s Red Book",
+      text: "Not “in the mind's eye,” but in an actual sensory way, like what happens during Jung’s active imagination process, and in dreams, and in hypnagogic states.",
     },
     {
       imageURL: torus,
@@ -587,7 +614,13 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: collectiveUnconscious,
       caption: "Illustration from Carl Jung’s Red Book",
-      text: "One such scholar, Matthew Horrigan, writes that “dreams, digital games, and the imagination all involve imaginary worlds, with digital games intersubjectively distributing the practice of imagination by means of audiovisual signifiers and interaction patterns.” That sounds a lot like the collective unconscious to me. Beyond interactivity, what a video game promises is not just rendered image and sound, not just narrative, not even just the joy of play, but inhabitation of an imaginary and imaginal realm that is shared with others.",
+      text: "One such scholar, Matthew Horrigan, writes that “dreams, digital games, and the imagination all involve imaginary worlds, with digital games intersubjectively distributing the practice of imagination by means of audiovisual signifiers and interaction patterns.”",
+      multiply: true,
+    },
+    {
+      imageURL: collectiveUnconscious,
+      caption: "Illustration from Carl Jung’s Red Book",
+      text: "That sounds a lot like the collective unconscious to me. Beyond interactivity, what a video game promises is not just rendered image and sound, not just narrative, not even just the joy of play, but inhabitation of an imaginary and imaginal realm that is shared with others.",
       multiply: true,
     },
     {
@@ -598,7 +631,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: zoomedOutMulti,
       caption: null,
-      text: "I’d like to posit Minecraft as a “no-where:” a virtual place that one can’t actually physically enter, and yet exists nonetheless. A place that has very little history or myth built in, but in which the player creates their own lore. In a randomly generated landscape that is essentially homogeneous from a zoomed out view, in this place outside of “where,” it is up to the player to construct the “where,” to build and recognize landmarks and places with meaning to the player through exploration of the world.",
+      text: "I’d like to posit Minecraft as a “no-where:” a virtual place that one can’t actually physically enter, and yet exists nonetheless. A place that has very little history or myth built in, but in which the player creates their own lore.",
+    },
+    {
+      imageURL: zoomedOutMulti,
+      caption: null,
+      text: "In a randomly generated landscape that is essentially homogeneous from a zoomed out view, in this place outside of “where,” it is up to the player to construct the “where,” to build and recognize landmarks and places with meaning to the player through exploration of the world.",
     },
     {
       imageURL: diagram1a,
@@ -615,7 +653,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: magicCircle,
       caption: null,
-      text: "Other psychologists note something similar. The psychologist Carl Rogers describes the “out-of-this-world” quality of a therapeutic session, a sort of “trance-like feeling in the relationship that client and therapist emerge from at the end of the hour, as if from a deep well or tunnel.” Marion Milner describes it as “a temporal-spatial frame also marks off the special kind of reality of a psychoanalytic session.” Jung himself describes it as “a magic circle […] in which the transformation inherent in the patient’s condition would be allowed to take place.”",
+      text: "Other psychologists note something similar. The psychologist Carl Rogers describes the “out-of-this-world” quality of a therapeutic session, a sort of “trance-like feeling in the relationship that client and therapist emerge from at the end of the hour, as if from a deep well or tunnel.”",
+    },
+    {
+      imageURL: magicCircle,
+      caption: null,
+      text: "Marion Milner describes it as “a temporal-spatial frame also marks off the special kind of reality of a psychoanalytic session.” Jung himself describes it as “a magic circle […] in which the transformation inherent in the patient’s condition would be allowed to take place.”",
     },
     {
       imageURL: gameMagicCircle,
@@ -702,7 +745,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: americanFootball,
       caption: null,
-      text: "Minecraft can be seen as a vocabulary and grammar that people use to create so many things that exist both within and without the game. For Oulipo, both the rules of a piece of constrained writing as well as the author’s choices act as co-authors for the text. For Minecraft, the ‘game’ does not solely come from the procedural structure of the game, but also from the player’s activation of the software, which could be affected by any number of external circumstances, perspectives, and attitudes that the player may hold.",
+      text: "Minecraft can be seen as a vocabulary and grammar that people use to create so many things that exist both within and without the game. For Oulipo, both the rules of a piece of constrained writing as well as the author’s choices act as co-authors for the text.",
+    },
+    {
+      imageURL: americanFootball,
+      caption: null,
+      text: "For Minecraft, the ‘game’ does not solely come from the procedural structure of the game, but also from the player’s activation of the software, which could be affected by any number of external circumstances, perspectives, and attitudes that the player may hold.",
     },
     {
       imageURL: industrial,
@@ -712,7 +760,17 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: misc2,
       caption: null,
-      text: "But within Minecraft, player and game share “a subtle copresence.” The “numbers game”  combines with ecological aesthetics, atmospheric music, and the player’s own choices, to create a digital ecology that points to both “the embeddedness of the human in an environmental system as well as their irrelevance to its mundane operations.” There are processes in Minecraft that go on without user interaction, but the user is also able to interact with every element in the game. In writing about games that strive to model ecological principles, media theorist Alenda Chang observes that one fundamental mistake video game designers make is that they relegate environments to the background. But everything in Minecraft is interactable — that’s the whole point—the environment is entirely foregrounded.",
+      text: "But within Minecraft, player and game share “a subtle copresence.” The “numbers game”  combines with ecological aesthetics, atmospheric music, and the player’s own choices, to create a digital ecology that points to both “the embeddedness of the human in an environmental system as well as their irrelevance to its mundane operations.”",
+    },
+    {
+      imageURL: misc2,
+      caption: null,
+      text: "There are processes in Minecraft that go on without user interaction, but the user is also able to interact with every element in the game.",
+    },
+    {
+      imageURL: misc2,
+      caption: null,
+      text: "In writing about games that strive to model ecological principles, media theorist Alenda Chang observes that one fundamental mistake video game designers make is that they relegate environments to the background. But everything in Minecraft is interactable — that’s the whole point—the environment is entirely foregrounded.",
     },
     {
       imageURL: sheep,
@@ -853,7 +911,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: treePunching,
       caption: null,
-      text: "When you start out in Minecraft with nothing in your inventory, the first thing you’ll probably do is punch trees to gather your first wood blocks. “Punching trees” is trope embedded in the culture of the game, and is a sort of initiation ritual, a catalyst for all other possible actions in the game. Punching a tree is the only way to gather enough wood to create a crafting table, which allows the player to make all other tools and objects. On MinecraftForum.net, users have titles that evoke the stages of progression in a Minecraft game; newcomers who have only made a few posts are called “Tree Punchers.”",
+      text: "When you start out in Minecraft with nothing in your inventory, the first thing you’ll probably do is punch trees to gather your first wood blocks. “Punching trees” is trope embedded in the culture of the game, and is a sort of initiation ritual, a catalyst for all other possible actions in the game.",
+    },
+    {
+      imageURL: treePunching,
+      caption: null,
+      text: "Punching a tree is the only way to gather enough wood to create a crafting table, which allows the player to make all other tools and objects. On MinecraftForum.net, users have titles that evoke the stages of progression in a Minecraft game; newcomers who have only made a few posts are called “Tree Punchers.”",
     },
     {
       imageURL: null,
@@ -899,7 +962,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mining,
       caption: null,
-      text: "Many materials need to be mined underground. The image of the underground is always archetypally linked to the unconscious. Following that, perhaps the ore you find represents the nuggets of insights that might be found down there, that have to be brought back to be integrated and put to use on the surface, all the while avoiding monsters, lava, and flooding. In contrast, the conscious surface is constantly changing and growing, and is extremely receptive—remove a couple of layers of dirt and grass will grow on top to form a new surface, as previously underground dirt is exposed to air. And then there is the preconscious twilight and night, when the monsters from the unconscious slip up to the surface and terrify us.",
+      text: "Many materials need to be mined underground. The image of the underground is always archetypally linked to the unconscious. Following that, perhaps the ore you find represents the nuggets of insights that might be found down there, that have to be brought back to be integrated and put to use on the surface, all the while avoiding monsters, lava, and flooding.",
+    },
+    {
+      imageURL: mining,
+      caption: null,
+      text: "In contrast, the conscious surface is constantly changing and growing, and is extremely receptive—remove a couple of layers of dirt and grass will grow on top to form a new surface, as previously underground dirt is exposed to air. And then there is the preconscious twilight and night, when the monsters from the unconscious slip up to the surface and terrify us.",
     },
     {
       imageURL: null,
@@ -929,7 +997,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: netherPortal,
       caption: null,
-      text: "The Overworld and the Nether seem to echo the structure of the surface vs. the underground. The Overworld is reactive and alive, but the Nether is empty and actually somewhat indifferent in character. Yes, there are many monsters lurking in the Nether, but it also has a sense of quietude and void. Players have to go through the Nether to gather the requisite materials (Ender Pearls) to craft further requisite materials (the Eyes of Ender) in order to gain access to The End. ",
+      text: "The Overworld and the Nether seem to echo the structure of the surface vs. the underground. The Overworld is reactive and alive, but the Nether is empty and actually somewhat indifferent in character.",
+    },
+    {
+      imageURL: netherPortal,
+      caption: null,
+      text: "Yes, there are many monsters lurking in the Nether, but it also has a sense of quietude and void. Players have to go through the Nether to gather the requisite materials (Ender Pearls) to craft further requisite materials (the Eyes of Ender) in order to gain access to The End. ",
     },
     {
       imageURL: slain,
@@ -970,7 +1043,12 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: treeRedBook2,
       caption: "Illustration from Carl Jung’s Red Book",
-      text: "The conceit of the poem is that two god-like entities are speaking about the player—the real player, not Steve the avatar. They are aware that the player, who has now transcended into a higher plane after defeating the enderdragon, is reading the poem. They directly compare Minecraft to a dream, while making a distinction between “the long dream of life,” and “the short dream of a game.” To these two entities, words are an “interface,” just like the interface of the game screen. In fact, they call “dreams” the original interface. “A million years old, and it still works.”",
+      text: "The conceit of the poem is that two god-like entities are speaking about the player—the real player, not Steve the avatar. They are aware that the player, who has now transcended into a higher plane after defeating the enderdragon, is reading the poem.",
+    },
+    {
+      imageURL: treeRedBook2,
+      caption: "Illustration from Carl Jung’s Red Book",
+      text: "They directly compare Minecraft to a dream, while making a distinction between “the long dream of life,” and “the short dream of a game.” To these two entities, words are an “interface,” just like the interface of the game screen. In fact, they call “dreams” the original interface. “A million years old, and it still works.”",
     },
     {
       imageURL: endPoemText,
@@ -1075,8 +1153,14 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: treeOfLife,
       caption: null,
-      text: "Overall, the poem has an “everything is everything” kind of ethos that emphasizes the structural similarities of the microcosm and the macrocosm, of the game, the player, and the universe. The whole thing feels like a Terrence Malick movie. The two beings urge the player to see the interconnectedness of all things from atoms to forests to stories to stars, and to live life in meatspace just as voraciously as the player has lived in cubespace.",
+      text: "Overall, the poem has an “everything is everything” kind of ethos that emphasizes the structural similarities of the microcosm and the macrocosm, of the game, the player, and the universe. The whole thing feels like a Terrence Malick movie.",
     },
+    {
+      imageURL: treeOfLife,
+      caption: null,
+      text: "The two beings urge the player to see the interconnectedness of all things from atoms to forests to stories to stars, and to live life in meatspace just as voraciously as the player has lived in cubespace.",
+    },
+    
     {
       imageURL: wakeUp,
       caption: "The End Poem",
