@@ -1189,13 +1189,8 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: sad,
       caption: null,
-      text: "And now it’s time to wake up.",
-    },
-    {
-      imageURL: sad,
-      caption: null,
-      text: "(thank you)",
-    },
+      text: "And now it’s time to wake up. (thanks for listening!)",
+    }
   ];
 
   $: currSlide = 0;
