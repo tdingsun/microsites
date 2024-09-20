@@ -199,7 +199,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     {
       imageURL: mattiaHouse,
       caption: null,
-      text: "a recreation of the house he grew up in in New Jersey",
+      text: "a recreation of his childhood home in New Jersey",
     },
     {
       imageURL: mattiaBirth,
