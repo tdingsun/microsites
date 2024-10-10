@@ -1249,8 +1249,8 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       ><span class="relative -top-[1px]">{"-->"}</span></button
     >
   {/if}
-  <div class="{slides[currSlide].showAudio ? 'opacity-100' : 'opacity-0'} fixed top-0 left-0 w-screen h-screen flex justify-center items-center">
-    <audio controls>
+  <div class="{slides[currSlide].showAudio ? 'opacity-100' : 'opacity-0'} fixed top-0 left-0 w-screen h-screen flex justify-center items-center pointer-events-none">
+    <audio controls class="pointer-events-auto">
       <source src={IntroMP3} type="audio/mpeg">
     </audio>
   </div>
