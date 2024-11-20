@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Slide from "./Slide.svelte";
-  import IntroMP3 from "$lib/media/Intro.mp3"
+  import IntroMP3 from "$lib/media/Intro.mp3";
   import landscape from "$lib/images/minecraft/landscape.jpg";
 
   import mattia from "$lib/images/minecraft/mattia.png";
@@ -33,8 +33,8 @@
   import diagram1b from "$lib/images/minecraft/diagram1-b.png";
   import diagram1c from "$lib/images/minecraft/diagram1-c.png";
 
-  import minecraftOfficial from "$lib/images/minecraft/minecraft-official.webp"
-  import basicWorld from "$lib/images/minecraft/overworld.webp"
+  import minecraftOfficial from "$lib/images/minecraft/minecraft-official.webp";
+  import basicWorld from "$lib/images/minecraft/overworld.webp";
   import vinyl from "$lib/images/minecraft/vinyl.jpeg";
   import enderdragonGif from "$lib/images/minecraft/enderdragon.gif";
 
@@ -44,116 +44,114 @@
   import herobrineSighting from "$lib/images/minecraft/herobrine-sighting.jpg";
   import treeOfLife from "$lib/images/minecraft/tree-of-life.png";
   import treeOfLife2 from "$lib/images/minecraft/tree.png";
-  import mobs from "$lib/images/minecraft/mobs.png"
-  import theEnd from "$lib/images/minecraft/the-end.png"
-  import theEnd2 from "$lib/images/minecraft/the-end-2.webp"
-  import nether from "$lib/images/minecraft/nether.webp"
-  import mojang from "$lib/images/minecraft/mojang.png"
-  import nostalgiaComment from "$lib/images/minecraft/comment-3.png"
-  import minecon1 from "$lib/images/minecraft/minecon1.png"
-  import minecon2 from "$lib/images/minecraft/minecon2.jpg"
-  import fogOfWar from "$lib/images/minecraft/fog-of-war.webp"
-  import mingPainting1 from "$lib/images/minecraft/ming-painting-1.jpg"
-  import dad from "$lib/images/minecraft/dad.png"
-  import lifeGame from "$lib/images/minecraft/life-game.png"
-  import monument from "$lib/images/minecraft/monument.png"
-  import parkour from "$lib/images/minecraft/parkour.gif"
-  import bedWars from "$lib/images/minecraft/bed-wars.jpg"
-  import threeBody from "$lib/images/minecraft/three-body-problem.jpg"
-  import youtubers from "$lib/images/minecraft/youtubers.png"
-  import crafting from "$lib/images/minecraft/crafting.png"
-  import enchanting from "$lib/images/minecraft/enchanting.webp"
-  import roofs from "$lib/images/minecraft/roofs.webp"
-  import bridges from "$lib/images/minecraft/bridges.webp"
-  import circles from "$lib/images/minecraft/circles.webp"
-  import dyingArmor from "$lib/images/minecraft/dying-armor.webp"
-  import walden from "$lib/images/minecraft/walden.webp"
-  import waldenInside from "$lib/images/minecraft/walden-inside.webp"
-  import pond from "$lib/images/minecraft/pond.png"
-  import scholarRock from "$lib/images/minecraft/scholar-rock.jpg"
-  import mingPainting2 from "$lib/images/minecraft/ming-painting-2.jpg"
-  import animaMundi from "$lib/images/minecraft/anima-mundi.jpg"
-  import crush from "$lib/images/minecraft/crush.png"
-  import flowers from "$lib/images/minecraft/flowers.gif"
-  import fish from "$lib/images/minecraft/fish.png"
-  import redBook from "$lib/images/minecraft/red-book.jpg"
-  import mundusImaginalis from "$lib/images/minecraft/mundus-imaginalis.jpg"
+  import mobs from "$lib/images/minecraft/mobs.png";
+  import theEnd from "$lib/images/minecraft/the-end.png";
+  import theEnd2 from "$lib/images/minecraft/the-end-2.webp";
+  import nether from "$lib/images/minecraft/nether.webp";
+  import mojang from "$lib/images/minecraft/mojang.png";
+  import nostalgiaComment from "$lib/images/minecraft/comment-3.png";
+  import minecon1 from "$lib/images/minecraft/minecon1.png";
+  import minecon2 from "$lib/images/minecraft/minecon2.jpg";
+  import fogOfWar from "$lib/images/minecraft/fog-of-war.webp";
+  import mingPainting1 from "$lib/images/minecraft/ming-painting-1.jpg";
+  import dad from "$lib/images/minecraft/dad.png";
+  import lifeGame from "$lib/images/minecraft/life-game.png";
+  import monument from "$lib/images/minecraft/monument.png";
+  import parkour from "$lib/images/minecraft/parkour.gif";
+  import bedWars from "$lib/images/minecraft/bed-wars.jpg";
+  import threeBody from "$lib/images/minecraft/three-body-problem.jpg";
+  import youtubers from "$lib/images/minecraft/youtubers.png";
+  import crafting from "$lib/images/minecraft/crafting.png";
+  import enchanting from "$lib/images/minecraft/enchanting.webp";
+  import roofs from "$lib/images/minecraft/roofs.webp";
+  import bridges from "$lib/images/minecraft/bridges.webp";
+  import circles from "$lib/images/minecraft/circles.webp";
+  import dyingArmor from "$lib/images/minecraft/dying-armor.webp";
+  import walden from "$lib/images/minecraft/walden.webp";
+  import waldenInside from "$lib/images/minecraft/walden-inside.webp";
+  import pond from "$lib/images/minecraft/pond.png";
+  import scholarRock from "$lib/images/minecraft/scholar-rock.jpg";
+  import mingPainting2 from "$lib/images/minecraft/ming-painting-2.jpg";
+  import animaMundi from "$lib/images/minecraft/anima-mundi.jpg";
+  import crush from "$lib/images/minecraft/crush.png";
+  import flowers from "$lib/images/minecraft/flowers.gif";
+  import fish from "$lib/images/minecraft/fish.png";
+  import redBook from "$lib/images/minecraft/red-book.jpg";
+  import mundusImaginalis from "$lib/images/minecraft/mundus-imaginalis.jpg";
   import sohravardi from "$lib/images/minecraft/sohravardi.jpg";
   import redBookMisc from "$lib/images/minecraft/red-book-misc.png";
   import torus from "$lib/images/minecraft/torus.png";
-  import zoomedOutMulti from "$lib/images/minecraft/zoomed-out-multi.png"
-  import lostWorldComment from "$lib/images/minecraft/lost-world-reddit.png"
-  import convo from "$lib/images/minecraft/convo.gif"
-  import dogs from "$lib/images/minecraft/dogs.webp"
-  import endPoemTattoo from "$lib/images/minecraft/end-poem-tattoo.jpg"
-  import netherPortal from "$lib/images/minecraft/nether-portal.webp"
-  import magicCircle from "$lib/images/minecraft/magic-circle.webp"
-  import wakeUp from "$lib/images/minecraft/wake-up.jpg"
-  import herobrineSteve from "$lib/images/minecraft/herobrine.jpg"
-  import herobrineIsometric from "$lib/images/minecraft/herobrine-isometric.png"
-  import liminal from "$lib/images/minecraft/liminal.png"
-  import gameMagicCircle from "$lib/images/minecraft/game-magic-circle.png"
-  import ex from "$lib/images/minecraft/ex.png"
-  import twoWeekPhase from "$lib/images/minecraft/two-week-phase.png"
-  import twoWeekGif from "$lib/images/minecraft/two-week-gif.gif"
-  import farming from "$lib/images/minecraft/farming.png"
-  import operas from "$lib/images/minecraft/operas.png"
-  import oulipo from "$lib/images/minecraft/oulipo.jpg"
-  import americanFootball from "$lib/images/minecraft/american-football.jpg"
-  import sheep from "$lib/images/minecraft/sheep.jpg"
-  import froebel1 from "$lib/images/minecraft/froebel1.jpg"
-  import froebel2 from "$lib/images/minecraft/froebel2.jpg"
-  import froebel3 from "$lib/images/minecraft/froebel3.jpg"
-  import fallingwater from "$lib/images/minecraft/fallingwater.jpg"
-  import artificialLight from "$lib/images/minecraft/artificial-light.gif"
-  import procedural from "$lib/images/minecraft/procedural.png"
+  import zoomedOutMulti from "$lib/images/minecraft/zoomed-out-multi.png";
+  import lostWorldComment from "$lib/images/minecraft/lost-world-reddit.png";
+  import convo from "$lib/images/minecraft/convo.gif";
+  import dogs from "$lib/images/minecraft/dogs.webp";
+  import endPoemTattoo from "$lib/images/minecraft/end-poem-tattoo.jpg";
+  import netherPortal from "$lib/images/minecraft/nether-portal.webp";
+  import magicCircle from "$lib/images/minecraft/magic-circle.webp";
+  import wakeUp from "$lib/images/minecraft/wake-up.jpg";
+  import herobrineSteve from "$lib/images/minecraft/herobrine.jpg";
+  import herobrineIsometric from "$lib/images/minecraft/herobrine-isometric.png";
+  import liminal from "$lib/images/minecraft/liminal.png";
+  import gameMagicCircle from "$lib/images/minecraft/game-magic-circle.png";
+  import ex from "$lib/images/minecraft/ex.png";
+  import twoWeekPhase from "$lib/images/minecraft/two-week-phase.png";
+  import twoWeekGif from "$lib/images/minecraft/two-week-gif.gif";
+  import farming from "$lib/images/minecraft/farming.png";
+  import operas from "$lib/images/minecraft/operas.png";
+  import oulipo from "$lib/images/minecraft/oulipo.jpg";
+  import americanFootball from "$lib/images/minecraft/american-football.jpg";
+  import sheep from "$lib/images/minecraft/sheep.jpg";
+  import froebel1 from "$lib/images/minecraft/froebel1.jpg";
+  import froebel2 from "$lib/images/minecraft/froebel2.jpg";
+  import froebel3 from "$lib/images/minecraft/froebel3.jpg";
+  import fallingwater from "$lib/images/minecraft/fallingwater.jpg";
+  import artificialLight from "$lib/images/minecraft/artificial-light.gif";
+  import procedural from "$lib/images/minecraft/procedural.png";
 
-  import misc1 from "$lib/images/minecraft/misc1.jpg"
-  import misc2 from "$lib/images/minecraft/misc2.webp"
-  import misc3 from "$lib/images/minecraft/misc3.jpg"
-  import collectiveUnconscious from "$lib/images/minecraft/collective-unconscious.png"
+  import misc1 from "$lib/images/minecraft/misc1.jpg";
+  import misc2 from "$lib/images/minecraft/misc2.webp";
+  import misc3 from "$lib/images/minecraft/misc3.jpg";
+  import collectiveUnconscious from "$lib/images/minecraft/collective-unconscious.png";
 
-  import egg from "$lib/images/minecraft/ender-egg.jpg"
+  import egg from "$lib/images/minecraft/ender-egg.jpg";
 
-  import endPoemText from "$lib/images/minecraft/end-poem-text.jpg"
-  import endPoemText2 from "$lib/images/minecraft/end-poem-text-2.jpg"
-  import treeRedBook1 from "$lib/images/minecraft/tree-red-book-1.png"
-  import treeRedBook2 from "$lib/images/minecraft/tree-red-book-2.png"
-  import slain from "$lib/images/minecraft/slain.png"
-  import dragonRedBook from "$lib/images/minecraft/dragon-red-book.png"
-  import killingEnderdragon from "$lib/images/minecraft/killing-enderdragon.png"
-  import tweet1 from "$lib/images/minecraft/tweet1.png"
-  import sad from "$lib/images/minecraft/sad.jpg"
-  import mining from "$lib/images/minecraft/mining.webp"
-  import firstNight from "$lib/images/minecraft/first-night.png"
-  import cozy from "$lib/images/minecraft/cozy.jpg"
-  import sun from "$lib/images/minecraft/sun.webp"
-  import recipes from "$lib/images/minecraft/crafting-recipes.png"
-    import treePunching from "$lib/images/minecraft/tree-punching.jpg"
-  import diamonds from "$lib/images/minecraft/diamonds.png"
-    import tnt from "$lib/images/minecraft/tnt.webp"
-import woodenTools from "$lib/images/minecraft/wooden-tools.jpg"
-import industrial from "$lib/images/minecraft/industrial.png"
-import jungEgg from "$lib/images/minecraft/jung-egg.png"
-import peters from "$lib/images/minecraft/peters.jpg"
+  import endPoemText from "$lib/images/minecraft/end-poem-text.jpg";
+  import endPoemText2 from "$lib/images/minecraft/end-poem-text-2.jpg";
+  import treeRedBook1 from "$lib/images/minecraft/tree-red-book-1.png";
+  import treeRedBook2 from "$lib/images/minecraft/tree-red-book-2.png";
+  import slain from "$lib/images/minecraft/slain.png";
+  import dragonRedBook from "$lib/images/minecraft/dragon-red-book.png";
+  import killingEnderdragon from "$lib/images/minecraft/killing-enderdragon.png";
+  import tweet1 from "$lib/images/minecraft/tweet1.png";
+  import sad from "$lib/images/minecraft/sad.jpg";
+  import mining from "$lib/images/minecraft/mining.webp";
+  import firstNight from "$lib/images/minecraft/first-night.png";
+  import cozy from "$lib/images/minecraft/cozy.jpg";
+  import sun from "$lib/images/minecraft/sun.webp";
+  import recipes from "$lib/images/minecraft/crafting-recipes.png";
+  import treePunching from "$lib/images/minecraft/tree-punching.jpg";
+  import diamonds from "$lib/images/minecraft/diamonds.png";
+  import tnt from "$lib/images/minecraft/tnt.webp";
+  import woodenTools from "$lib/images/minecraft/wooden-tools.jpg";
+  import industrial from "$lib/images/minecraft/industrial.png";
+  import jungEgg from "$lib/images/minecraft/jung-egg.png";
+  import peters from "$lib/images/minecraft/peters.jpg";
 
-import mountain from "$lib/images/minecraft/mountain.jpg"
-import moon from "$lib/images/minecraft/moon.jpg"
-import ancestors from "$lib/images/minecraft/ancestors.jpg"
-import animalSpirit from "$lib/images/minecraft/animal-spirit.png"
-import jinn from "$lib/images/minecraft/jin.jpg"
-import ghosts from "$lib/images/minecraft/ghosts.webp"
-import greenman from "$lib/images/minecraft/greenman.jpg"
-import gods from "$lib/images/minecraft/gods.jpg"
-import demons from "$lib/images/minecraft/demons.jpg"
-import angels from "$lib/images/minecraft/angels.webp"
-import ufo from "$lib/images/minecraft/ufo.webp"
-import lepton from "$lib/images/minecraft/lepton.png"
-import languages from "$lib/images/minecraft/languages.jpg"
-import poltergeist from "$lib/images/minecraft/poltergeist.png"
-import fatherSun from "$lib/images/minecraft/fatherSun.webp"
-
-
+  import mountain from "$lib/images/minecraft/mountain.jpg";
+  import moon from "$lib/images/minecraft/moon.jpg";
+  import ancestors from "$lib/images/minecraft/ancestors.jpg";
+  import animalSpirit from "$lib/images/minecraft/animal-spirit.png";
+  import jinn from "$lib/images/minecraft/jin.jpg";
+  import ghosts from "$lib/images/minecraft/ghosts.webp";
+  import greenman from "$lib/images/minecraft/greenman.jpg";
+  import gods from "$lib/images/minecraft/gods.jpg";
+  import demons from "$lib/images/minecraft/demons.jpg";
+  import angels from "$lib/images/minecraft/angels.webp";
+  import ufo from "$lib/images/minecraft/ufo.webp";
+  import lepton from "$lib/images/minecraft/lepton.png";
+  import languages from "$lib/images/minecraft/languages.jpg";
+  import poltergeist from "$lib/images/minecraft/poltergeist.png";
+  import fatherSun from "$lib/images/minecraft/fatherSun.webp";
 
   let title = "The End is Not the End (A Hermeneutics of Minecraft)";
   let author = "Tiger Dingsun";
@@ -520,12 +518,14 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: mingPainting1,
-      caption: "Landscape in the Style of Mi Fu, attributed to Dong Qichang, dated 1611 and 1612",
+      caption:
+        "Landscape in the Style of Mi Fu, attributed to Dong Qichang, dated 1611 and 1612",
       text: "This is a Chinese landscape painting from the late-Ming era.",
     },
     {
       imageURL: mingPainting1,
-      caption: "Landscape in the Style of Mi Fu, attributed to Dong Qichang, dated 1611 and 1612",
+      caption:
+        "Landscape in the Style of Mi Fu, attributed to Dong Qichang, dated 1611 and 1612",
       text: "While all landscape paintings are meant to evoke emotion, landscape paintings from this era were not regarded as closed objects available to the viewer for mere aesthetic appreciation. Instead, they were thought to possess an interiority that afforded space for the human spirit to roam in.",
     },
     {
@@ -550,12 +550,14 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: mingPainting2,
-      caption: "The Thatched Hut of Dreaming of an Immortal, Tang Yin, Ming dynasty, late 15th to early 16th century",
+      caption:
+        "The Thatched Hut of Dreaming of an Immortal, Tang Yin, Ming dynasty, late 15th to early 16th century",
       text: "There’s a certain teleology associated with the practice of viewing Chinese landscape paintings, which involves the merging of the beholder’s human body with that of a purported broader cosmic body, thereby also giving interiority to the physical world–including landscape.",
     },
     {
       imageURL: mingPainting2,
-      caption: "The Thatched Hut of Dreaming of an Immortal, Tang Yin, Ming dynasty, late 15th to early 16th century",
+      caption:
+        "The Thatched Hut of Dreaming of an Immortal, Tang Yin, Ming dynasty, late 15th to early 16th century",
       text: "Access to this space, or, “entering the mountains,” allowed for a momentary yet reproducible experience of transcendence.",
     },
     {
@@ -625,7 +627,8 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
     },
     {
       imageURL: sohravardi,
-      caption: "Manuscript of Suhrawardi's Hikmat al-Ishraq. Copy created in post-Seljuq Iran, dated 13 October 1220",
+      caption:
+        "Manuscript of Suhrawardi's Hikmat al-Ishraq. Copy created in post-Seljuq Iran, dated 13 October 1220",
       text: "Corbin traces the idea of the imaginal realm to the ideas of Sohravardi, a notable 12th century Persian philosopher who describes a place that he calls “Na-Koja-Abad”—literally “no-where-land”—a “realm of suspended images”  that is not geographically locatable but is yet ontologically “real.”",
     },
     {
@@ -700,7 +703,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       caption: null,
       text: "Simulations of Nature",
       title: true,
-      multiply: true
+      multiply: true,
     },
     {
       imageURL: procedural,
@@ -861,7 +864,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       imageURL: diagram2,
       caption: null,
       text: "An Archetypal Analysis of Minecraft",
-      title: true
+      title: true,
     },
     {
       imageURL: diagram2,
@@ -892,7 +895,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       imageURL: null,
       caption: null,
       text: "The Random Seed",
-    }, 
+    },
     {
       imageURL: misc1,
       caption: null,
@@ -932,7 +935,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       imageURL: sun,
       caption: null,
       text: "“Squaring the Circle,” a concept in alchemy that represents the transfiguration of the spiritual (the circle) into the physical (the square), takes on new meaning in Minecraft when one realizes that even the sun in the sky is a square.",
-      multiply: true
+      multiply: true,
     },
     {
       imageURL: null,
@@ -1028,7 +1031,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       imageURL: null,
       caption: null,
       text: "The End is Not the End",
-      showAudio: true
+      showAudio: true,
     },
     {
       imageURL: endPoemTattoo,
@@ -1160,7 +1163,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       caption: null,
       text: "The two beings urge the player to see the interconnectedness of all things from atoms to forests to stories to stars, and to live life in meatspace just as voraciously as the player has lived in cubespace.",
     },
-    
+
     {
       imageURL: wakeUp,
       caption: "The End Poem",
@@ -1190,7 +1193,7 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       imageURL: sad,
       caption: null,
       text: "And now it’s time to wake up. (thanks for listening!)",
-    }
+    },
   ];
 
   $: currSlide = 0;
@@ -1249,10 +1252,13 @@ import fatherSun from "$lib/images/minecraft/fatherSun.webp"
       ><span class="relative -top-[1px]">{"-->"}</span></button
     >
   {/if}
-  <div class="{slides[currSlide].showAudio ? 'opacity-100' : 'opacity-0'} fixed top-0 left-0 w-screen h-screen flex justify-center items-center pointer-events-none">
+  <div
+    class="{slides[currSlide].showAudio
+      ? 'opacity-100'
+      : 'opacity-0'} fixed top-0 left-0 w-screen h-screen flex justify-center items-center pointer-events-none"
+  >
     <audio controls class="pointer-events-auto">
-      <source src={IntroMP3} type="audio/mpeg">
+      <source src={IntroMP3} type="audio/mpeg" />
     </audio>
   </div>
-
 </div>

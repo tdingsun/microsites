@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/sva-july-2024/+layout.svelte";
