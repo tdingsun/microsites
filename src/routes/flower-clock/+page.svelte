@@ -21,7 +21,7 @@ var rotateAllNote = 0;
   let flowerSize = $state(0);
   let numFlowers = new Array(60);
   let flowerRotationStates = $state(new Array(60).fill(0));
-  let flowerColorStates = $state(new Array(60).fill('#c9c9b6'))
+  let flowerColorStates = $state(new Array(60).fill('cornsilk'))
   let started = $state(false);
 
   onMount(() => {
@@ -50,7 +50,7 @@ var rotateAllNote = 0;
     }
     synth.triggerAttackRelease(notes[Math.floor(Math.random() * notes.length)], "1n");
 
-    if(currM >= 10){
+    if(currM >= 60){
       currM = 0;
       noteBase++;
       if(noteBase >= noteBases.length){
@@ -107,15 +107,24 @@ var rotateAllNote = 0;
     clockString = h + ":" + m + ":" + s;
   }
 
+  let intervals: number[] = [];
+
   const start = () => {
     started = true;
-    setInterval(rotateAll, rotateAllSpeed);
-    setInterval(rotateFixed, 500);
-    setInterval(() => {
+    let i1 = setInterval(rotateAll, rotateAllSpeed);
+    let i2 = setInterval(rotateFixed, 1000);
+    let i3 = setInterval(() => {
       setClock();
     }, 1000)
     setClock();
+    intervals = [i1, i2, i3];
   };
+
+  const stop = () => {
+    for(let i of intervals){
+      clearInterval(i);
+    }
+  }
 </script>
 
 <svelte:head>
@@ -124,7 +133,7 @@ var rotateAllNote = 0;
 
 
 
-<div class="w-dvw h-dvh fixed top-0 left-0 p-4 flex ">
+<div class="w-dvw h-dvh fixed top-0 left-0 p-16 flex bg-[cornsilk] ">
   <div
     bind:this={container}
     bind:clientWidth={containerWidth}
@@ -142,7 +151,7 @@ var rotateAllNote = 0;
   </div>
 </div>
 
-<div class="clock w-full flex p-4  text-[5vw] text-tertiary font-wyvern tracking-tighter fixed bottom-0 left-0 w-dvw justify-center z-0 leading-none">{clockString}</div>
+<div class="clock w-full flex p-4  text-4xl text-secondary font-wyvern tracking-tighter fixed bottom-0 left-0 w-dvw justify-center z-0 leading-none">{clockString}</div>
 
 
 <div
@@ -154,4 +163,4 @@ var rotateAllNote = 0;
   click to begin
 </div>
 
-<a href="/plus-clock"><div class="fixed bottom-4 left-4 bg-tertiary w-6 h-6 rounded-full"></div></a>
+<a onclick={stop} href="/plus-clock"><div class="fixed bottom-4 left-4 bg-secondary w-6 h-6 rounded-full"></div></a>
