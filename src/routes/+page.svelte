@@ -11,6 +11,13 @@
             <li class="lining-nums">
                 <a href="/naive-yearly-2024" class="hover:italic">The End Has No End: A Heremeneutics of Minecraft [presentation]</a>
             </li>
+            <li class="lining-nums">
+                <a href="/plus-clock" class="hover:italic">Plus Clock</a>
+            </li>
+            <li class="lining-nums">
+                <a href="/flower-clock" class="hover:italic">Flower Field Clock</a>
+            </li>
+            
         </ol>
     </section>
 
