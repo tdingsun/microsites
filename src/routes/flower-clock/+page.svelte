@@ -31,9 +31,13 @@ var rotateAllNote = 0;
     }
 
     let volume = new Tone.Volume(-12);
-    let reverb = new Tone.Reverb(0.25);
+    let reverb = new Tone.Reverb(1);
     synth = new Tone.PolySynth(Tone.Synth).chain(volume, reverb, Tone.getDestination());
-
+    synth.set({
+      oscillator: {
+        type: 'sine'
+      }
+    })
     notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 2, 4, 7, 9, 12, 16, 19, 24]);
 
   });
