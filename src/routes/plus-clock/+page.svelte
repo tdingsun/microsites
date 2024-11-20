@@ -1,14 +1,13 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import * as Tone from "tone";
-  import Flower from "./components/Flower.svelte";
+  import Plus from "./components/Plus.svelte";
 
-  const noteBases = ["C3", "G3", "D3", "A3", "E3", "B3", "Gb3", "Db3", "Ab3", "Eb3", 'Bb3', 'F3'];
+  const noteBases = ["C3", "D3", "E3", "G3", "A3", "C4", "Gb3", "Db3", "Ab3", "Eb3", 'Bb3', 'F3'];
   let noteBase = 0;
   let notes;
   let synth;
   var rotateAllSpeed = 2000/3;
-  var colors = ["gold", "yellowgreen", "tomato", "salmon", "palevioletred", "orangered", "orange", "mediumorchid", "lightcoral", "goldenrod", "cornflowerblue", "coral", "thistle", "darkkhaki", "darkcyan", "pink", "deepskyblue"]
 
 var randRotate = false;
 var rotateAllNote = 0;
@@ -21,7 +20,6 @@ var rotateAllNote = 0;
   let flowerSize = $state(0);
   let numFlowers = new Array(60);
   let flowerRotationStates = $state(new Array(60).fill(0));
-  let flowerColorStates = $state(new Array(60).fill('#c9c9b6'))
   let started = $state(false);
 
   onMount(() => {
@@ -48,7 +46,7 @@ var rotateAllNote = 0;
           rotate(i);
       }
     }
-    synth.triggerAttackRelease(notes[Math.floor(Math.random() * notes.length)], "1n");
+    synth.triggerAttackRelease(notes[rotateAllNote], "1n");
 
     if(currM >= 10){
       currM = 0;
@@ -79,12 +77,11 @@ var rotateAllNote = 0;
           rotate(i);
       }
     }
-    synth.triggerAttackRelease(notes[Math.floor(Math.random() * notes.length)], "1n");
+    synth.triggerAttackRelease(notes[rotateAllNote], "1n");
   }
 
   const rotate = (i) => {
     flowerRotationStates[i] = flowerRotationStates[i] === 0 ? Math.random() * 90 + 90 : 0;
-    flowerColorStates[i] = colors[Math.floor(Math.random() * colors.length)];
   }
 
   const onFlowerMouseOver = (flowerIdx) => {
@@ -136,7 +133,7 @@ var rotateAllNote = 0;
       class="flex flex-wrap content-center justify-center"
     >
       {#each numFlowers as _, flowerIdx}
-        <Flower onMouseOver={onFlowerMouseOver} size={flowerSize} {flowerIdx} bind:rotationState={flowerRotationStates[flowerIdx]}  bind:colorState={flowerColorStates[flowerIdx]}></Flower>
+        <Plus onMouseOver={onFlowerMouseOver} size={flowerSize} {flowerIdx} bind:rotationState={flowerRotationStates[flowerIdx]}></Plus>
       {/each}
     </div>
   </div>
@@ -154,4 +151,5 @@ var rotateAllNote = 0;
   click to begin
 </div>
 
-<a href="/plus-clock"><div class="fixed bottom-4 left-4 bg-tertiary w-6 h-6 rounded-full"></div></a>
+<a href="/flower-clock"><div class="fixed bottom-4 left-4 bg-tertiary w-6 h-6 rounded-full"></div></a>
+
