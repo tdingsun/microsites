@@ -7,8 +7,8 @@
   let noteBase = 0;
   let notes;
   let synth;
-  var rotateAllSpeed = 1000;
-  var colors = ["gold", "yellowgreen", "tomato", "salmon", "plum", "palevioletred", "orchid", "orangered", "orange", "mediumorchid", "lightcoral", "goldenrod", "cornflowerblue", "coral", "thistle", "darkkhaki", "darkcyan", "pink", "dodgerblue", "deepskyblue"]
+  var rotateAllSpeed = 750;
+  var colors = ["gold", "yellowgreen", "tomato", "salmon", "plum", "palevioletred", "orchid", "orangered", "orange", "mediumorchid", "lightcoral", "goldenrod", "cornflowerblue", "coral", "thistle", "darkkhaki", "darkcyan", "pink"]
 
 var randRotate = false;
 var rotateAllNote = 0;
@@ -31,7 +31,8 @@ var rotateAllNote = 0;
     }
 
     let volume = new Tone.Volume(-12);
-    synth = new Tone.PolySynth(Tone.Synth).chain(volume, Tone.getDestination());
+    let reverb = new Tone.Reverb(0.5);
+    synth = new Tone.PolySynth(Tone.Synth).chain(volume, reverb, Tone.getDestination());
 
     notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 4, 7, 12, 16, 19, 24]);
 
@@ -109,7 +110,6 @@ var rotateAllNote = 0;
   <title>Flower Field Clock</title>
 </svelte:head>
 
-<div class="clock w-full flex p-4 text-[25vw] text-[cornsilk] font-bold tracking-tighter fixed top-0 left-0 w-dvw h-dvh flex justify-center items-center z-0">{clockString}</div>
 
 
 <div class="w-dvw h-dvh fixed top-0 left-0 p-4 flex ">
@@ -129,6 +129,9 @@ var rotateAllNote = 0;
     </div>
   </div>
 </div>
+
+<div class="clock w-full flex p-4  text-[5vw] text-[cornsilk] font-wyvern tracking-tighter fixed bottom-0 left-0 w-dvw justify-center z-0 leading-none">{clockString}</div>
+
 
 <div
   onclick={start}

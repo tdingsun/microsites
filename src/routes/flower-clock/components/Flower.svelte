@@ -12,7 +12,7 @@
             <Petal numPetals={numPetals.length}  {size} {idx} {flowerIdx} {color} flowerRotation={rotation}></Petal>
         {/each}
         <div class="{rotationState === 0 ? 'bg-primary': ''} rounded-full w-1/2 h-1/2 relative top-1/4 left-1/4 flex justify-center items-center">
-            <div style="border-color: cornsilk;" class="w-[80%] h-[80%] relative {rotationState === 0 ? ' ' : 'bg-[cornsilk]'} rounded-full">
+            <div style="border-color: cornsilk;" class="w-[50%] h-[50%] relative {rotationState === 0 ? ' ' : 'bg-[cornsilk]'} rounded-full">
                 <div>
                     <div style="background-color: {rotationState === 0 ? '' : color};" class="w-[15%] h-[15%]  absolute rounded-full top-1/4 left-[15%]">
 
