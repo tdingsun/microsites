@@ -337,6 +337,10 @@
     })
 </script>
 
+<svelte:head>
+    <title>It Turned from Rain to Snow</title>
+</svelte:head>
+
 <div>
     {#if currSlide===0}
          <!-- content here -->

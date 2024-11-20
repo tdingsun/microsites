@@ -6,10 +6,10 @@
     <section>
         <ol class="list-decimal pl-12">
             <li class="lining-nums">
-                <a href="/sva-july-2024" class="hover:italic">It turned from rain to snow [presentation]</a>
+                <a href="/sva-july-2024" class="hover:italic">It Turned from Rain to Snow [presentation]</a>
             </li>
             <li class="lining-nums">
-                <a href="/naive-yearly-2024" class="hover:italic">In Defense of the Simulation of Nature [presentation]</a>
+                <a href="/naive-yearly-2024" class="hover:italic">The End Has No End: A Heremeneutics of Minecraft [presentation]</a>
             </li>
         </ol>
     </section>

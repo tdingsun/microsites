@@ -1220,6 +1220,10 @@
   });
 </script>
 
+<svelte:head>
+    <title>The End has No End</title>
+</svelte:head>
+
 <div class="font-wyvern">
   {#if currSlide === 0}
     <!-- content here -->
