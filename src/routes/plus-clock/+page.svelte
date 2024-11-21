@@ -125,7 +125,7 @@ var rotateAllNote = 0;
 </script>
 
 <svelte:head>
-  <title>Flower Field Clock</title>
+  <title>Plus Clock</title>
 </svelte:head>
 
 
