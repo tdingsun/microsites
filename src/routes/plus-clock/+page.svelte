@@ -3,7 +3,7 @@
   import * as Tone from "tone";
   import Plus from "./components/Plus.svelte";
 
-  var noteBases = ["G3", "B3", "C3", "E3", "F3"];  
+  var noteBases = ["G2", "B2", "C3", "E3", "F3"];  
   let noteBase = 0;
   let notes;
   let synth;
@@ -23,18 +23,31 @@ var rotateAllNote = 0;
   let started = $state(false);
 
   onMount(() => {
-    flowerSize = containerWidth / 10;
-    if (flowerSize > containerHeight / 6) {
-      flowerSize = containerHeight / 6;
+    const calcSize = () => {
+      flowerSize = containerWidth / 10.5;
+    if (flowerSize > containerHeight / 6.5) {
+      flowerSize = containerHeight / 6.5;
     }
+    }
+ 
+    calcSize();
 
     let volume = new Tone.Volume(0);
-    let reverb = new Tone.Reverb(0.25);
-    synth = new Tone.PolySynth(Tone.Synth).chain(volume, Tone.getDestination());
+    let reverb = new Tone.Reverb(0.1);
 
+    synth = new Tone.PolySynth(Tone.Synth).chain(volume, reverb, Tone.getDestination());
+    synth.set({
+      envelope: {
+        attack: 0.02
+      }
+    })
     notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 4, 5, 7, 9, 11, 
                                             12, 16, 17, 19, 21, 23, 
                                             24]);
+
+    window.onresize = () => {
+      calcSize();
+    }
 
   });
 

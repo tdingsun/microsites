@@ -2,11 +2,12 @@
   import Petal from "./Petal.svelte";
 
     let { size, flowerIdx, rotationState = $bindable(), onMouseOver, colorState = $bindable() } = $props();
-    let numPetals = new Array(Math.floor(Math.random()*5) + 5);
+    let numPetalOptions = [3, 5, 6, 7, 8];
+    let numPetals = new Array(numPetalOptions[Math.floor(Math.random() * numPetalOptions.length)]);
     let rotation = $derived(rotationState);
     let color = $derived(colorState);
 </script>
-<div onmouseenter={e => (onMouseOver(flowerIdx))} style="width: {size}px; height: {size}px; transform: rotate({rotation}deg);" class=" transition-transform duration-500 flex-grow-0 relative origin-center">
+<div onmouseenter={e => (onMouseOver(flowerIdx))} style="width: {size}px; height: {size}px; transform: rotate({rotation + 45}deg);" class=" transition-transform duration-500 flex-grow-0 relative origin-center">
     <div class="absolute w-full h-full">
         {#each numPetals as _, idx}
             <Petal numPetals={numPetals.length}  {size} {idx} {flowerIdx} {color} flowerRotation={rotation}></Petal>

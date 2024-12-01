@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
   import * as Tone from "tone";
   import Flower from "./components/Flower.svelte";
 
@@ -24,23 +24,41 @@ var rotateAllNote = 0;
   let flowerColorStates = $state(new Array(60).fill('cornsilk'))
   let started = $state(false);
 
-  onMount(() => {
-    flowerSize = containerWidth / 10;
-    if (flowerSize > containerHeight / 6) {
-      flowerSize = containerHeight / 6;
-    }
+  let s;
+  let m;
+  let h;
 
-    let volume = new Tone.Volume(-12);
-    let reverb = new Tone.Reverb(1);
+  onMount(() => {
+
+    const calcSize = () => {
+      flowerSize = containerWidth / 10.5;
+    if (flowerSize > containerHeight / 6.5) {
+      flowerSize = containerHeight / 6.5;
+    }
+    }
+ 
+    calcSize();
+
+
+    let volume = new Tone.Volume(0);
+    let reverb = new Tone.Reverb(0.5);
     synth = new Tone.PolySynth(Tone.Synth).chain(volume, reverb, Tone.getDestination());
     synth.set({
       oscillator: {
-        type: 'sine'
+        type: 'triangle'
       }
     })
-    notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 2, 4, 7, 9, 12, 16, 19, 24]);
-
+    notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 4, 5, 7, 9, 11, 
+                                            12, 16, 17, 19, 21, 23, 
+                                            24]);
+    window.onresize = () => {
+      calcSize();
+    }
   });
+
+  onDestroy(() => {
+    stop();
+  })
 
   var currM = 1;
   var currFlower = 1;
@@ -52,7 +70,7 @@ var rotateAllNote = 0;
           rotate(i);
       }
     }
-    synth.triggerAttackRelease(notes[Math.floor(Math.random() * notes.length)], "1n");
+    synth.triggerAttackRelease(notes[Math.floor(Math.random() * notes.length)], "4n");
 
     if(currM >= 60){
       currM = 0;
@@ -64,14 +82,15 @@ var rotateAllNote = 0;
     }
     if(currFlower >= 60) {
       currFlower = 0;
-      notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 2, 4, 7, 9, 12, 16, 19, 24]);
-
+      notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 4, 5, 7, 9, 11, 
+                                            12, 16, 17, 19, 21, 23, 
+                                            24]);
     }
     currFlower++;
     currM++;
     randRotate = true;
     rotateAllNote++;
-    if(rotateAllNote > 8) {
+    if(rotateAllNote > 9) {
       rotateAllNote = 0
     }
   }
@@ -81,14 +100,18 @@ var rotateAllNote = 0;
     for(let i = 0; i < flowerRotationStates.length; i++){
       if(currFlower % (i + 1) === 0 ){
           rotate(i);
+          synth.triggerAttackRelease(notes[i % notes.length], "4n");
+
       }
     }
-    synth.triggerAttackRelease(notes[Math.floor(Math.random() * notes.length)], "1n");
   }
 
   const rotate = (i) => {
-    flowerRotationStates[i] = flowerRotationStates[i] === 0 ? Math.random() * 90 + 90 : 0;
-    flowerColorStates[i] = colors[Math.floor(Math.random() * colors.length)];
+    if(i !== s){
+      flowerRotationStates[i] = flowerRotationStates[i] === 0 ? Math.random() * 90 + 90 : 0;
+      flowerColorStates[i] = colors[Math.floor(Math.random() * colors.length)];
+    }
+   
   }
 
   const onFlowerMouseOver = (flowerIdx) => {
@@ -103,12 +126,12 @@ var rotateAllNote = 0;
 
   const setClock = () => {
     var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    clockString = h + ":" + m + ":" + s;
+    h = today.getHours();
+    m = today.getMinutes();
+    s = today.getSeconds();
+    clockString = h + ":" + checkTime(m) + ":" + checkTime(s);
+    flowerColorStates[s] = '#6b672e'
+    flowerRotationStates[s] = '1'
   }
 
   let intervals: number[] = [];
@@ -116,7 +139,7 @@ var rotateAllNote = 0;
   const start = () => {
     started = true;
     let i1 = setInterval(rotateAll, rotateAllSpeed);
-    let i2 = setInterval(rotateFixed, 1000);
+    let i2 = setInterval(rotateFixed, 500);
     let i3 = setInterval(() => {
       setClock();
     }, 1000)
