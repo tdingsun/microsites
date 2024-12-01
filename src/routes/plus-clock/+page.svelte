@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { onMount } from "svelte";
+  import { onDestroy, onMount } from "svelte";
   import * as Tone from "tone";
   import Plus from "./components/Plus.svelte";
 
-  const noteBases = ["C3", "D3", "E3", "G3", "A3", "C4", "Gb3", "Db3", "Ab3", "Eb3", 'Bb3', 'F3'];
+  var noteBases = ["G3", "B3", "C3", "E3", "F3"];  
   let noteBase = 0;
   let notes;
   let synth;
@@ -28,13 +28,19 @@ var rotateAllNote = 0;
       flowerSize = containerHeight / 6;
     }
 
-    let volume = new Tone.Volume(-12);
+    let volume = new Tone.Volume(0);
     let reverb = new Tone.Reverb(0.25);
-    synth = new Tone.PolySynth(Tone.Synth).chain(volume, reverb, Tone.getDestination());
+    synth = new Tone.PolySynth(Tone.Synth).chain(volume, Tone.getDestination());
 
-    notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 2, 4, 7, 9, 12, 16, 19, 24]);
+    notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 4, 5, 7, 9, 11, 
+                                            12, 16, 17, 19, 21, 23, 
+                                            24]);
 
   });
+
+  onDestroy(() => {
+    stop();
+  })
 
   var currM = 1;
   var currFlower = 1;
@@ -46,7 +52,7 @@ var rotateAllNote = 0;
           rotate(i);
       }
     }
-    synth.triggerAttackRelease(notes[rotateAllNote], "1n");
+    synth.triggerAttackRelease(notes[rotateAllNote], "2n");
 
     if(currM >= 60){
       currM = 0;
@@ -58,14 +64,15 @@ var rotateAllNote = 0;
     }
     if(currFlower >= 60) {
       currFlower = 0;
-      notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 2, 4, 7, 9, 12, 16, 19, 24]);
-
+      notes = Tone.Frequency(noteBases[noteBase]).harmonize([0, 4, 5, 7, 9, 11, 
+                                            12, 16, 17, 19, 21, 23, 
+                                            24]);
     }
     currFlower++;
     currM++;
     randRotate = true;
     rotateAllNote++;
-    if(rotateAllNote > 8) {
+    if(rotateAllNote > 9) {
       rotateAllNote = 0
     }
   }
@@ -75,9 +82,9 @@ var rotateAllNote = 0;
     for(let i = 0; i < flowerRotationStates.length; i++){
       if(currFlower % (i + 1) === 0 ){
           rotate(i);
+          synth.triggerAttackRelease(notes[i % notes.length], "4n");
       }
     }
-    synth.triggerAttackRelease(notes[rotateAllNote], "1n");
   }
 
   const rotate = (i) => {
