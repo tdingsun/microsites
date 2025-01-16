@@ -17,15 +17,11 @@
         </div>
     {/if}
     {#if slide.text}
-    <div class="fixed bottom-0 left-0 w-full p-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-primary leading-tight xl:leading-[1.05] [text-shadow:_0_0_5px_#c9c9b6]">
-        {slide.clauses[currClause]}{#if !last}.{/if}
-    </div>
-        <div class="fixed bottom-0 left-0 w-full p-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-primary leading-tight xl:leading-[1.05] [text-shadow:_0_0_5px_#6b672e]">
-            {slide.clauses[currClause]}{#if !last}.{/if}
+        <div class="fixed bottom-0 left-0 w-full p-4 text-2xl md:text-3xl lg:text-4xl text-primary !leading-tight [text-shadow:_0_0_3px_#6b672e]">
+            {slide.clauses[currClause]}{#if !last}{/if}
         </div>
-        
-        <div class="fixed bottom-0 left-0 w-full p-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-secondary leading-tight xl:leading-[1.05]">
-            {slide.clauses[currClause]}{#if !last}.{/if}
+        <div class="font-sans fixed bottom-0 left-0 w-full p-4 text-2xl md:text-3xl lg:text-4xl !leading-tight text-secondary">
+            {slide.clauses[currClause]}{#if !last}{/if}
         </div>
     {/if}
 </div>

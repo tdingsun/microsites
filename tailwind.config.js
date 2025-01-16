@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        wyvern: ["Wyvern"]
+        wyvern: ["Wyvern"],
+        sans: [ "Arial", "Helvetica", "sans"]
       },
       colors: {
         primary: '#c9c9b6',
